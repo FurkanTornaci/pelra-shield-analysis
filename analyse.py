@@ -11,6 +11,9 @@ Inputs (data/):
   packages.csv                 the ten intervention packages, mapped SHIELD codes and stakeholder votes
   pelra_case_attributes.csv    per Pelra case: recorded vessel classes and the derived
                                classification group, KNKT report number, non-wooden hull flag
+  pelra_case_locations.csv     per Pelra case: recorded location and coordinates, water type (Figure 11)
+  basemap_naturalearth_10m.geojson  coastlines and lakes for Figure 11 (Natural Earth, public domain; built by
+                               tools/make_basemap.py)
 Outputs: outputs/*.csv, outputs/results.json, figures/*.png
 Run:  python analyse.py      (Python 3.10; numpy, pandas, scipy, statsmodels, openpyxl, matplotlib)
 """
@@ -272,10 +275,15 @@ assert (pel.loc[pel.included, "report"] == "Final").all()
 pel["exclusion_reason"] = np.where(pel.included, "", "NTSC report status 'In progress' (not final)")
 pel = pel.merge(pd.read_csv(DATA / "pelra_case_attributes.csv"), on="case_no", how="left")
 assert pel.classification_group.notna().all()
+loc30 = pd.read_csv(DATA / "pelra_case_locations.csv")
+pel = pel.merge(loc30[["case_no", "location_recorded", "latitude", "longitude", "water_type"]], on="case_no", how="left")
+assert pel[["latitude", "longitude", "water_type"]].notna().all().all()
+results["pelra_water_types"] = pel.water_type.value_counts().to_dict()
 pel.to_csv(OUT / "S2_pelra_30_cases.csv", index=False,
            columns=["case_no", "year", "category", "acc_group", "area", "location", "cas_class", "fat", "report",
                     "included", "exclusion_reason", "coding_case", "vessel_names", "class_column_J",
-                    "classification_group", "knkt_report", "non_wooden_hull", "report_status_cleaned_data"])
+                    "classification_group", "knkt_report", "non_wooden_hull", "report_status_cleaned_data",
+                    "location_recorded", "latitude", "longitude", "water_type"])
 inc, exc = pel[pel.included], pel[~pel.included]
 results["included_vs_excluded"] = dict(
     mwu=mwu(inc.fat, exc.fat, exact=True),
@@ -587,6 +595,76 @@ ax.set_xticks(range(4), [l.replace(" L", "\nL") + f"\n(total = {lt.weight[l]})" 
 ax.set_ylabel("Cumulative weight (Σ ratings)")
 ax.legend(frameon=False, fontsize=8, ncol=4, loc="upper center", bbox_to_anchor=(0.5, 1.12))
 save(fig, "figure10_layer_weights")
+
+# Figure 11: the 30 Pelra cases at their recorded coordinates (base map: Natural Earth 1:10m, public domain).
+# Drawn at its printed width (14 cm), so the font sizes below are the printed sizes.
+WATER = {"Sea": "#1f5fbf", "River": "#2e9e3e", "Lake": "#d62728", "Port": "#c2188f"}
+LAND, LAND_OTHER, SEA, COAST = "#f3eee4", "#e2e2e2", "#e3eef7", "#8a8a8a"
+# offsets (points) for markers that would overlap a neighbour; they are joined to the location by a thin line
+MAP_OFFSET = {7: (-11, 8), 10: (-12, -5), 30: (5, -11), 5: (-6, -11), 13: (-12, -2), 27: (-6, 10), 6: (10, 6),
+              18: (-10, 7), 2: (-10, -5), 12: (9, -8), 3: (5, -10), 9: (-3, 10), 8: (6, 9), 15: (-10, -3),
+              11: (0, 10), 16: (-8, -8), 20: (6, 9), 26: (0, -10)}
+basemap = json.loads((DATA / "basemap_naturalearth_10m.geojson").read_text())
+x0, x1, y0, y1 = 94.3, 141.7, -11.6, 7.4
+fig, ax = plt.subplots(figsize=(5.6, 2.75))
+ax.set_facecolor(SEA)
+for feat in basemap["features"]:
+    pr = feat["properties"]
+    for ring, hole in zip(feat["geometry"]["coordinates"], pr["holes"]):
+        water = pr["kind"] == "lake" or hole
+        fc = SEA if water else (LAND if pr["iso"] == "IDN" else LAND_OTHER)
+        ax.add_patch(plt.Polygon(ring, closed=True, fc=fc, ec=COAST, lw=0.2, zorder=2 if water else 1))
+for lon, lat, name, kw in [
+        (100.3, -8.9, "Indian Ocean", {}), (111.0, 5.0, "South China Sea", {}), (110.4, -4.3, "Java Sea", {}),
+        (121.6, 4.4, "Sulawesi Sea", {}), (127.4, -5.6, "Banda Sea", {}), (120.6, -7.3, "Flores Sea", {}),
+        (136.6, -9.4, "Arafura Sea", {}), (117.6, -2.6, "Makassar\nStrait", {}), (124.7, -0.8, "Maluku Sea", {}),
+        (137.3, 0.5, "Pacific Ocean", {})]:
+    ax.text(lon, lat, name, ha="center", va="center", fontsize=5, style="italic", color="#4a6f91", zorder=3,
+            linespacing=0.95, **kw)
+for lon, lat, name in [(101.6, -0.9, "Sumatra"), (114.2, -0.4, "Kalimantan"), (108.4, -7.7, "Java"),
+                       (120.4, -1.6, "Sulawesi"), (138.6, -4.4, "Papua"), (129.9, -2.5, "Maluku"),
+                       (120.1, -10.75, "Nusa Tenggara")]:
+    ax.text(lon, lat, name, ha="center", va="center", fontsize=5.5, color="#5c5246", zorder=3)
+for lon, lat, name in [(102.1, 5.7, "MALAYSIA"), (114.6, 3.2, "MALAYSIA"), (124.6, 6.75, "PHILIPPINES"),
+                       (127.4, -9.85, "TIMOR-LESTE"), (132.6, -11.25, "AUSTRALIA")]:
+    ax.text(lon, lat, name, ha="center", va="center", fontsize=4.6, color="#6f6f6f", zorder=3)
+for r in pel.sort_values("case_no").itertuples():
+    dx, dy = MAP_OFFSET.get(r.case_no, (0, 0))
+    at = matplotlib.transforms.offset_copy(ax.transData, fig=fig, x=dx, y=dy, units="points")
+    if (dx, dy) != (0, 0):
+        ax.plot([r.longitude], [r.latitude], "o", ms=1.8, color="#222222", zorder=4)
+        ax.annotate("", xy=(r.longitude, r.latitude), xytext=(dx, dy), textcoords="offset points", zorder=4,
+                    arrowprops=dict(arrowstyle="-", lw=0.4, color="#222222", shrinkA=0, shrinkB=0))
+    ax.scatter([r.longitude], [r.latitude], s=62, c=WATER[r.water_type], edgecolors="white", linewidths=0.5,
+               transform=at, zorder=5)
+    ax.text(r.longitude, r.latitude, str(r.case_no), transform=at, ha="center", va="center", fontsize=4.9,
+            fontweight="bold", color="white", zorder=6)
+wt = results["pelra_water_types"]
+handles = [plt.Line2D([], [], ls="", marker="o", ms=5.5, mfc=WATER[k], mec="white", label=f"{k} (n = {wt.get(k, 0)})")
+           for k in WATER]
+ax.legend(handles=handles, title="Water area", loc="upper right", fontsize=5.5, title_fontsize=5.8, frameon=True,
+          framealpha=0.95, edgecolor="#9a9a9a", borderpad=0.5, handletextpad=0.2, labelspacing=0.35)
+km = 111.32  # km per degree of longitude at the equator
+sx, sy = 95.2, -10.9
+for i in range(4):
+    ax.add_patch(plt.Rectangle((sx + i * 250 / km, sy), 250 / km, 0.25, fc="black" if i % 2 == 0 else "white",
+                               ec="black", lw=0.35, zorder=6))
+for i, lab in enumerate(["0", "500", "1000 km"]):
+    ax.text(sx + i * 500 / km, sy + 0.5, lab, ha="center", va="bottom", fontsize=4.6, zorder=6)
+ax.annotate("", xy=(96.0, -4.9), xytext=(96.0, -6.9), zorder=6,
+            arrowprops=dict(arrowstyle="-|>", lw=0.7, color="black", mutation_scale=7, shrinkA=0, shrinkB=0))
+ax.text(96.0, -4.3, "N", ha="center", va="center", fontsize=6, fontweight="bold", zorder=6)
+ax.set_xlim(x0, x1)
+ax.set_ylim(y0, y1)
+ax.set_aspect("equal")
+ax.set_xticks(range(100, 141, 10), [f"{v}°E" for v in range(100, 141, 10)], fontsize=5.5)
+ax.set_yticks([5, 0, -5, -10], ["5°N", "0°", "5°S", "10°S"], fontsize=5.5)
+ax.grid(color="white", lw=0.35, alpha=0.9, zorder=0)
+ax.tick_params(length=2, width=0.4, pad=1.5)
+for sp in ax.spines.values():
+    sp.set_visible(True)
+    sp.set_linewidth(0.5)
+save(fig, "figure11_map")
 
 # Figure 12: location types (derived from the Area column)
 grp_order = ["Capsizing", "Collision/Contact", "Fire/Explosion", "Grounding", "Other"]

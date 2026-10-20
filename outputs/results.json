@@ -639,6 +639,12 @@
   "River": 28,
   "Sea": 183
  },
+ "pelra_water_types": {
+  "Sea": 24,
+  "River": 2,
+  "Lake": 2,
+  "Port": 2
+ },
  "included_vs_excluded": {
   "mwu": {
    "n1": 23,

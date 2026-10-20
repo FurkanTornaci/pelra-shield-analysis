@@ -36,6 +36,7 @@ data/              input data (see data/README.md for every column)
 outputs/           tables (CSV) and all statistics (results.json)
 figures/           the data figures of the paper (PNG, 300 dpi)
 docs/methods.md    the methods in brief, and how the outputs map to the paper
+tools/             make_basemap.py, which built the Figure 11 base map from Natural Earth (run once)
 ```
 
 ## Where each result in the paper comes from
@@ -55,7 +56,7 @@ docs/methods.md    the methods in brief, and how the outputs map to the paper
 | Table 13, Priority Weight calculation by code | `outputs/table12_codes.csv` (W_i), `outputs/S4_intervention_audit.csv` |
 | Table 14, factor–fatality tests | `outputs/rq3_macro_associations.csv` |
 | Supplementary Tables S1–S4 | `outputs/S1_*.csv` to `outputs/S4_*.csv` |
-| Figures 1, 2, 4–10 and 12–18 | `figures/figure<N>_*.png` |
+| Figures 1, 2 and 4–18 | `figures/figure<N>_*.png` |
 | Every statistic quoted in the text | `outputs/results.json` |
 
 The script does not generate:
@@ -63,7 +64,6 @@ The script does not generate:
 - Table 2 (the consultation participants)
 - Table 6 (the crosswalk to NTSC recommendations)
 - Figure 3 (the SHIELD structure, adapted from Stroeve et al., 2023)
-- Figure 11 (the map)
 
 ## Data sources
 
@@ -73,6 +73,10 @@ The script does not generate:
   the corrections are listed in `data/fatality_corrections.csv` and `data/area_corrections.csv`.
 - **SHIELD coding:** coded by the authors from the final reports. Each coded instance carries the supporting
   evidence and a four-point impact rating.
+- **Case locations:** the recorded coordinates of the 30 Pelra cases (`data/pelra_case_locations.csv`). Two
+  were corrected: the latitude sign for Case 25 and the missing decimal coordinates for Case 27.
+- **Base map (Figure 11):** Natural Earth 1:10m countries and lakes (public domain), naturalearthdata.com,
+  reduced to the map window by `tools/make_basemap.py`.
 - **SHIELD definitions:** quoted from Stroeve et al. (2023), *Safety* 9(1), 14,
   https://doi.org/10.3390/safety9010014 (CC BY 4.0).
 

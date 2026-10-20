@@ -67,6 +67,29 @@ There is one row per Pelra case (30 rows).
 | knkt_report | KNKT report number (coded cases) |
 | non_wooden_hull | Hull material where the KNKT report describes a non-wooden hull, with the report page |
 
+## `pelra_case_locations.csv`
+
+There is one row per Pelra case (30 rows); Figure 11 plots these.
+
+| Column | Meaning |
+|---|---|
+| case_no | Pelra case number |
+| vessel | Vessel(s) involved |
+| location_recorded | Location as recorded in the authors' accident records |
+| latitude_recorded, longitude_recorded | Coordinates as recorded (degrees, minutes, seconds; U/T are Indonesian for N/E) |
+| latitude, longitude | Decimal degrees used for the map (south and west negative) |
+| water_type | Sea, River, Lake or Port |
+| note | Where the decimal coordinates differ from the recorded values, the reason |
+
+Case 19 is a port here (Kelapa Lima port on the Maro River, Merauke). The Area column of the accident workbook gives
+"River Maro", so Figure 12, which classifies all 215 occurrences by that column, counts it as River.
+
+## `basemap_naturalearth_10m.geojson`
+
+These are the coastlines, country borders and lakes for Figure 11, from Natural Earth 1:10m (public domain). Each
+feature lists rings of [longitude, latitude]. `properties.holes` marks rings that are holes, and `properties.kind` is
+`country` or `lake`. `tools/make_basemap.py` built this file and can rebuild it (it needs `pyshp`).
+
 ## `packages.csv`
 
 The ten intervention packages: code, name, mapped SHIELD codes (separated by `;`) and `n_support`, the number of the

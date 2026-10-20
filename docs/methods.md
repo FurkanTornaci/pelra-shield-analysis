@@ -51,3 +51,9 @@ Six sensitivity analyses re-rank the packages:
 
 The main analyses are repeated without the three coded vessels that the KNKT reports describe as non-wooden (Cases 7,
 26 and 28). The results are in `results.json` under `sensitivity_non_wooden_excluded`.
+
+## Map (Figure 11)
+
+Each Pelra case is plotted at its recorded coordinates, coloured by water type. Markers that would overlap a
+neighbour are offset and joined to the true location by a line. The base map uses an equirectangular (plate carrée)
+projection, which near the equator distorts little.
