@@ -1,0 +1,5 @@
+row_id,case,vessel,original,corrected,knkt_report,report_location,cleaned_workbook_location
+61,Case 6,Kapal Pancung,Karimata Strait,Riau Strait (Tanjungpinang),KNKT.16.08.07.03,"Sekitar Pelabuhan Tanjungpinang, Kepulauan Riau","Tanjung Pinang, Archipelago Riau"
+65,Case 7,KM. Bintang Fajar,Strait Sape,Maluku Sea (Jailolo),KNKT.16.10.11.03,"Dermaga Jailolo, Halmahera Barat, Maluku Utara","Halmahera, Maluku North"
+72,Case 10,KM. Karamando,Sea Sulawesi,Maluku Sea (Jailolo),KNKT.16.12.18.03,"Sekitar 3 Mil Laut Selatan Pelabuhan Jailolo, Maluku Utara","Waters Jailolo Halmahera West, Maluku North"
+138,Case 17,Fungka Permata V,Seram Sea,Banggai waters (Central Sulawesi),KNKT.18.09.31.03,"Perairan Banggai Laut, Sulawesi Tengah","Banggai Sea, Sulawesi Tenggara"

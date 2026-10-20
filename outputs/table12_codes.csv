@@ -1,0 +1,33 @@
+code,layer,category,label,cases,pct_cases,instances,weight,mean_rating,median_rating,n_rating_1,n_rating_2,n_rating_3,n_rating_4
+OR3,Organisation,Resources,Equipment/parts/materials availability,17,73.91304347826087,21,58,2.761904761904762,3.0,1,8,7,5
+AD1,Acts,Planning And Decision Making,Incorrect decision or plan,14,60.869565217391305,14,41,2.9285714285714284,3.0,0,5,5,4
+AP1,Acts,Perception,No/wrong/late visual detection,12,52.17391304347826,13,31,2.3846153846153846,2.0,2,6,3,2
+OC1,Organisation,Culture,Safety culture,8,34.78260869565217,8,29,3.625,4.0,0,1,1,6
+PEW3,Preconditions,Equipment And Workplace,Workspace or working position incompatible with operation,5,21.73913043478261,5,15,3.0,3.0,1,0,2,2
+PEW5,Preconditions,Equipment And Workplace,Communication equipment inadequate,5,21.73913043478261,5,13,2.6,3.0,0,2,3,0
+LO1,Operational Leadership,Operations Planning,Inadequate risk assessment,4,17.391304347826086,4,12,3.0,3.0,0,1,2,1
+AC2,Acts,Communicating,No transmission of information,4,17.391304347826086,4,9,2.25,2.5,1,1,2,0
+LT2,Operational Leadership,Task Leadership,No correction of unsafe practices,3,13.043478260869565,3,11,3.6666666666666665,4.0,0,0,1,2
+LT3,Operational Leadership,Task Leadership,No enforcement of existing rules,3,13.043478260869565,3,10,3.3333333333333335,3.0,0,0,2,1
+AI1,Acts,Intentional Deviation,Workaround in normal conditions,3,13.043478260869565,3,9,3.0,3.0,0,1,1,1
+PAW4,Preconditions,Awareness,Inattention,3,13.043478260869565,3,8,2.6666666666666665,2.0,0,2,0,1
+PCS1,Preconditions,"Competence, Skills And Capability",Inadequate experience,3,13.043478260869565,3,7,2.3333333333333335,2.0,0,2,1,0
+OE3,Organisation,Economy And Business,Economic pressure,2,8.695652173913043,2,7,3.5,3.5,0,0,1,1
+LP1,Operational Leadership,Personnel Leadership,No personnel measures against regular risky behaviour,2,8.695652173913043,2,6,3.0,3.0,0,0,2,0
+AC1,Acts,Communicating,Incorrect/unclear transmission of information,2,8.695652173913043,2,5,2.5,2.5,0,1,1,0
+OR5,Organisation,Resources,Design of equipment or procedures,2,8.695652173913043,2,5,2.5,2.5,0,1,1,0
+AI3,Acts,Intentional Deviation,Workaround in exceptional conditions,2,8.695652173913043,2,4,2.0,2.0,1,0,1,0
+LO2,Operational Leadership,Operations Planning,Inadequate crew or team makeup or composition,2,8.695652173913043,2,4,2.0,2.0,0,2,0,0
+LT5,Operational Leadership,Task Leadership,Directed deviation,1,4.3478260869565215,1,4,4.0,4.0,0,0,0,1
+OS2,Organisation,Safety Management,Safety risk management (proactive),1,4.3478260869565215,1,4,4.0,4.0,0,0,0,1
+PPC2,Preconditions,Physiological Condition,Fatigue,1,4.3478260869565215,1,4,4.0,4.0,0,0,0,1
+AD2,Acts,Planning And Decision Making,Late decision or plan,1,4.3478260869565215,1,3,3.0,3.0,0,0,1,0
+AD3,Acts,Planning And Decision Making,No decision or plan,1,4.3478260869565215,1,3,3.0,3.0,0,0,1,0
+LP2,Operational Leadership,Personnel Leadership,Inappropriate behaviour affects learning,1,4.3478260869565215,1,3,3.0,3.0,0,0,1,0
+PCS2,Preconditions,"Competence, Skills And Capability",Lack of proficiency,1,4.3478260869565215,1,3,3.0,3.0,0,0,1,0
+LO6,Operational Leadership,Operations Planning,Directed task with inadequate equipment,1,4.3478260869565215,1,2,2.0,2.0,0,1,0,0
+LT1,Operational Leadership,Task Leadership,Inadequate leadership or supervision,1,4.3478260869565215,1,2,2.0,2.0,0,1,0,0
+PCS3,Preconditions,"Competence, Skills And Capability",Inadequate training or currency,1,4.3478260869565215,1,2,2.0,2.0,0,1,0,0
+PEW1,Preconditions,Equipment And Workplace,Ergonomics and human machine interface issues,1,4.3478260869565215,1,2,2.0,2.0,0,1,0,0
+PEW2,Preconditions,Equipment And Workplace,Technology creates an unsafe situation,1,4.3478260869565215,1,2,2.0,2.0,0,1,0,0
+PPE6,Preconditions,Physical Environment,Operation more difficult due to weather and environment,1,4.3478260869565215,1,2,2.0,2.0,0,1,0,0

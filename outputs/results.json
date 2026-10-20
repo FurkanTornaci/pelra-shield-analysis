@@ -1,0 +1,1480 @@
+{
+ "fatality_corrections": [
+  {
+   "row_id": 6,
+   "case": "Case 2",
+   "vessel": "KM. Acita 03",
+   "original": 30,
+   "corrected": 40,
+   "dead": "31 (1 crew + 30 passengers)",
+   "missing": "9 passengers",
+   "knkt_report": "KNKT.07.10.06.03",
+   "source": "p. 13, Section I.7.1, Table I-5"
+  },
+  {
+   "row_id": 11,
+   "case": "Case 4",
+   "vessel": "Perahu Koli-Koli",
+   "original": 7,
+   "corrected": 10,
+   "dead": "8 passengers",
+   "missing": "2 (1 crew + 1 passenger)",
+   "knkt_report": "KNKT.08.11.05.03",
+   "source": "p. 9, Section I.7, Table I-1"
+  },
+  {
+   "row_id": 160,
+   "case": "Case 20",
+   "vessel": "Arin Jaya",
+   "original": 21,
+   "corrected": 22,
+   "dead": "21 passengers",
+   "missing": "1 passenger",
+   "knkt_report": "KNKT.19.06.15.03",
+   "source": "p. 5"
+  }
+ ],
+ "area_corrections": [
+  {
+   "row_id": 61,
+   "case": "Case 6",
+   "vessel": "Kapal Pancung",
+   "original": "Karimata Strait",
+   "corrected": "Riau Strait (Tanjungpinang)",
+   "knkt_report": "KNKT.16.08.07.03",
+   "report_location": "Sekitar Pelabuhan Tanjungpinang, Kepulauan Riau",
+   "cleaned_workbook_location": "Tanjung Pinang, Archipelago Riau"
+  },
+  {
+   "row_id": 65,
+   "case": "Case 7",
+   "vessel": "KM. Bintang Fajar",
+   "original": "Strait Sape",
+   "corrected": "Maluku Sea (Jailolo)",
+   "knkt_report": "KNKT.16.10.11.03",
+   "report_location": "Dermaga Jailolo, Halmahera Barat, Maluku Utara",
+   "cleaned_workbook_location": "Halmahera, Maluku North"
+  },
+  {
+   "row_id": 72,
+   "case": "Case 10",
+   "vessel": "KM. Karamando",
+   "original": "Sea Sulawesi",
+   "corrected": "Maluku Sea (Jailolo)",
+   "knkt_report": "KNKT.16.12.18.03",
+   "report_location": "Sekitar 3 Mil Laut Selatan Pelabuhan Jailolo, Maluku Utara",
+   "cleaned_workbook_location": "Waters Jailolo Halmahera West, Maluku North"
+  },
+  {
+   "row_id": 138,
+   "case": "Case 17",
+   "vessel": "Fungka Permata V",
+   "original": "Seram Sea",
+   "corrected": "Banggai waters (Central Sulawesi)",
+   "knkt_report": "KNKT.18.09.31.03",
+   "report_location": "Perairan Banggai Laut, Sulawesi Tengah",
+   "cleaned_workbook_location": "Banggai Sea, Sulawesi Tenggara"
+  }
+ ],
+ "fleet_table": [
+  {
+   "fleet": "Pelra",
+   "retained": true,
+   "n": 30,
+   "mean": 15.733333333333333,
+   "median": 9.5,
+   "q1": 4.0,
+   "q3": 16.75,
+   "max": 167.0,
+   "total": 472.0,
+   "fatal": 27,
+   "pct_fatal": 90.0,
+   "pct_fatal_ci95": [
+    0.7437891742081592,
+    0.9654001112526659
+   ]
+  },
+  {
+   "fleet": "Ro-Ro Ferry",
+   "retained": true,
+   "n": 51,
+   "mean": 4.705882352941177,
+   "median": 0.0,
+   "q1": 0.0,
+   "q3": 3.0,
+   "max": 50.0,
+   "total": 240.0,
+   "fatal": 20,
+   "pct_fatal": 39.21568627450981,
+   "pct_fatal_ci95": [
+    0.270273409817598,
+    0.5291484101605166
+   ]
+  },
+  {
+   "fleet": "General Cargo",
+   "retained": true,
+   "n": 36,
+   "mean": 2.4722222222222223,
+   "median": 0.0,
+   "q1": 0.0,
+   "q3": 2.25,
+   "max": 17.0,
+   "total": 89.0,
+   "fatal": 15,
+   "pct_fatal": 41.66666666666667,
+   "pct_fatal_ci95": [
+    0.27140562051446065,
+    0.5779974842512834
+   ]
+  },
+  {
+   "fleet": "Tanker",
+   "retained": true,
+   "n": 31,
+   "mean": 1.3548387096774193,
+   "median": 0.0,
+   "q1": 0.0,
+   "q3": 2.0,
+   "max": 7.0,
+   "total": 42.0,
+   "fatal": 14,
+   "pct_fatal": 45.16129032258064,
+   "pct_fatal_ci95": [
+    0.2916173598052002,
+    0.622278323626455
+   ]
+  },
+  {
+   "fleet": "Passenger",
+   "retained": true,
+   "n": 25,
+   "mean": 22.52,
+   "median": 0.0,
+   "q1": 0.0,
+   "q3": 8.0,
+   "max": 330.0,
+   "total": 563.0,
+   "fatal": 11,
+   "pct_fatal": 44.0,
+   "pct_fatal_ci95": [
+    0.26665638881067355,
+    0.6293266813020124
+   ]
+  },
+  {
+   "fleet": "Container",
+   "retained": true,
+   "n": 22,
+   "mean": 1.1818181818181819,
+   "median": 0.0,
+   "q1": 0.0,
+   "q3": 0.0,
+   "max": 19.0,
+   "total": 26.0,
+   "fatal": 4,
+   "pct_fatal": 18.181818181818183,
+   "pct_fatal_ci95": [
+    0.07306884583422055,
+    0.3851660743712655
+   ]
+  },
+  {
+   "fleet": "Bulk Carrier",
+   "retained": true,
+   "n": 13,
+   "mean": 2.6923076923076925,
+   "median": 0.0,
+   "q1": 0.0,
+   "q3": 1.0,
+   "max": 25.0,
+   "total": 35.0,
+   "fatal": 6,
+   "pct_fatal": 46.15384615384615,
+   "pct_fatal_ci95": [
+    0.23206067809538303,
+    0.70856204285494
+   ]
+  },
+  {
+   "fleet": "Landing Craft",
+   "retained": false,
+   "n": 3,
+   "mean": 0.3333333333333333,
+   "median": 0.0,
+   "q1": 0.0,
+   "q3": 0.5,
+   "max": 1.0,
+   "total": 1.0,
+   "fatal": 1,
+   "pct_fatal": 33.33333333333333,
+   "pct_fatal_ci95": [
+    0.06149194472039626,
+    0.7923403991979523
+   ]
+  },
+  {
+   "fleet": "Barge",
+   "retained": false,
+   "n": 1,
+   "mean": 4.0,
+   "median": 4.0,
+   "q1": 4.0,
+   "q3": 4.0,
+   "max": 4.0,
+   "total": 4.0,
+   "fatal": 1,
+   "pct_fatal": 100.0,
+   "pct_fatal_ci95": [
+    0.2065493143772374,
+    1.0
+   ]
+  },
+  {
+   "fleet": "Fishing Vessel",
+   "retained": false,
+   "n": 1,
+   "mean": 27.0,
+   "median": 27.0,
+   "q1": 27.0,
+   "q3": 27.0,
+   "max": 27.0,
+   "total": 27.0,
+   "fatal": 1,
+   "pct_fatal": 100.0,
+   "pct_fatal_ci95": [
+    0.2065493143772374,
+    1.0
+   ]
+  },
+  {
+   "fleet": "Patrol Vessel",
+   "retained": false,
+   "n": 1,
+   "mean": 0.0,
+   "median": 0.0,
+   "q1": 0.0,
+   "q3": 0.0,
+   "max": 0.0,
+   "total": 0.0,
+   "fatal": 0,
+   "pct_fatal": 0.0,
+   "pct_fatal_ci95": [
+    0.0,
+    0.7934506856227627
+   ]
+  },
+  {
+   "fleet": "Tug Boat",
+   "retained": false,
+   "n": 1,
+   "mean": 1.0,
+   "median": 1.0,
+   "q1": 1.0,
+   "q3": 1.0,
+   "max": 1.0,
+   "total": 1.0,
+   "fatal": 1,
+   "pct_fatal": 100.0,
+   "pct_fatal_ci95": [
+    0.2065493143772374,
+    1.0
+   ]
+  },
+  {
+   "fleet": "Total, seven retained categories",
+   "retained": null,
+   "n": 208,
+   "mean": 7.052884615384615,
+   "median": 0.0,
+   "q1": 0.0,
+   "q3": 4.25,
+   "max": 330.0,
+   "total": 1467.0,
+   "fatal": 97,
+   "pct_fatal": 46.63461538461539,
+   "pct_fatal_ci95": [
+    0.39977571657574096,
+    0.5341371252355976
+   ]
+  },
+  {
+   "fleet": "Total, all 215 occurrences",
+   "retained": null,
+   "n": 215,
+   "mean": 6.976744186046512,
+   "median": 0.0,
+   "q1": 0.0,
+   "q3": 4.0,
+   "max": 330.0,
+   "total": 1500.0,
+   "fatal": 101,
+   "pct_fatal": 46.97674418604651,
+   "pct_fatal_ci95": [
+    0.4041721817791156,
+    0.5364240833433378
+   ]
+  }
+ ],
+ "minor_categories": {
+  "Landing Craft": 3,
+  "Barge": 1,
+  "Fishing Vessel": 1,
+  "Patrol Vessel": 1,
+  "Tug Boat": 1
+ },
+ "fleet_kruskal": {
+  "H": 40.8232806449228,
+  "df": 6,
+  "p": 3.137280759868454e-07,
+  "n": 208,
+  "k": 7,
+  "eta2_H": 0.17325015246230246,
+  "epsilon2": 0.19721391615904732,
+  "groups": {
+   "Pelra": {
+    "n": 30,
+    "mean": 15.733333333333333,
+    "median": 9.5,
+    "q1": 4.0,
+    "q3": 16.75,
+    "max": 167.0,
+    "total": 472.0,
+    "fatal": 27,
+    "pct_fatal": 90.0
+   },
+   "Ro-Ro Ferry": {
+    "n": 51,
+    "mean": 4.705882352941177,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 3.0,
+    "max": 50.0,
+    "total": 240.0,
+    "fatal": 20,
+    "pct_fatal": 39.21568627450981
+   },
+   "General Cargo": {
+    "n": 36,
+    "mean": 2.4722222222222223,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 2.25,
+    "max": 17.0,
+    "total": 89.0,
+    "fatal": 15,
+    "pct_fatal": 41.66666666666667
+   },
+   "Tanker": {
+    "n": 31,
+    "mean": 1.3548387096774193,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 2.0,
+    "max": 7.0,
+    "total": 42.0,
+    "fatal": 14,
+    "pct_fatal": 45.16129032258064
+   },
+   "Passenger": {
+    "n": 25,
+    "mean": 22.52,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 8.0,
+    "max": 330.0,
+    "total": 563.0,
+    "fatal": 11,
+    "pct_fatal": 44.0
+   },
+   "Container": {
+    "n": 22,
+    "mean": 1.1818181818181819,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.0,
+    "max": 19.0,
+    "total": 26.0,
+    "fatal": 4,
+    "pct_fatal": 18.181818181818183
+   },
+   "Bulk Carrier": {
+    "n": 13,
+    "mean": 2.6923076923076925,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 1.0,
+    "max": 25.0,
+    "total": 35.0,
+    "fatal": 6,
+    "pct_fatal": 46.15384615384615
+   }
+  }
+ },
+ "dunn": [
+  {
+   "contrast": "Pelra vs Ro-Ro Ferry",
+   "mean_rank_ref": 160.56666666666666,
+   "mean_rank_other": 96.81372549019608,
+   "z": 5.00270610486076,
+   "p_raw": 5.653109072414963e-07,
+   "p_bonferroni": 3.3918654434489776e-06,
+   "direction": "Pelra higher"
+  },
+  {
+   "contrast": "Pelra vs General Cargo",
+   "mean_rank_ref": 160.56666666666666,
+   "mean_rank_other": 97.0,
+   "z": 4.642703052560615,
+   "p_raw": 3.4388040941033785e-06,
+   "p_bonferroni": 2.0632824564620273e-05,
+   "direction": "Pelra higher"
+  },
+  {
+   "contrast": "Pelra vs Tanker",
+   "mean_rank_ref": 160.56666666666666,
+   "mean_rank_other": 94.90322580645162,
+   "z": 4.629155314402431,
+   "p_raw": 3.6716031876100864e-06,
+   "p_bonferroni": 2.2029619125660518e-05,
+   "direction": "Pelra higher"
+  },
+  {
+   "contrast": "Pelra vs Passenger",
+   "mean_rank_ref": 160.56666666666666,
+   "mean_rank_other": 107.62,
+   "z": 3.530120005677779,
+   "p_raw": 0.00041537121536729403,
+   "p_bonferroni": 0.0024922272922037643,
+   "direction": "Pelra higher"
+  },
+  {
+   "contrast": "Pelra vs Container",
+   "mean_rank_ref": 160.56666666666666,
+   "mean_rank_other": 72.93181818181819,
+   "z": 5.637008566982029,
+   "p_raw": 1.730295080204571e-08,
+   "p_bonferroni": 1.0381770481227426e-07,
+   "direction": "Pelra higher"
+  },
+  {
+   "contrast": "Pelra vs Bulk Carrier",
+   "mean_rank_ref": 160.56666666666666,
+   "mean_rank_other": 96.34615384615384,
+   "z": 3.4919933156345984,
+   "p_raw": 0.00047943024504690425,
+   "p_bonferroni": 0.0028765814702814254,
+   "direction": "Pelra higher"
+  }
+ ],
+ "pelra_vs_comparators": {
+  "n1": 30,
+  "n2": 178,
+  "U_x": 4352.0,
+  "U_y": 988.0,
+  "U": 988.0,
+  "z": 5.993611502958043,
+  "p_asymptotic": 2.074930085059389e-09,
+  "r": 0.4155821845985771,
+  "x": {
+   "n": 30,
+   "mean": 15.733333333333333,
+   "median": 9.5,
+   "q1": 4.0,
+   "q3": 16.75,
+   "max": 167.0,
+   "total": 472.0,
+   "fatal": 27,
+   "pct_fatal": 90.0
+  },
+  "y": {
+   "n": 178,
+   "mean": 5.589887640449438,
+   "median": 0.0,
+   "q1": 0.0,
+   "q3": 2.0,
+   "max": 330.0,
+   "total": 995.0,
+   "fatal": 70,
+   "pct_fatal": 39.325842696629216
+  },
+  "hl_shift": 7.0,
+  "hl_ci95": [
+   4.0,
+   12.0
+  ]
+ },
+ "pelra_vs_all_nonpelra": {
+  "n1": 30,
+  "n2": 185,
+  "U_x": 4512.5,
+  "U_y": 1037.5,
+  "U": 1037.5,
+  "z": 5.96429710866902,
+  "p_asymptotic": 2.482848613582559e-09,
+  "r": 0.4067616867032383,
+  "x": {
+   "n": 30,
+   "mean": 15.733333333333333,
+   "median": 9.5,
+   "q1": 4.0,
+   "q3": 16.75,
+   "max": 167.0,
+   "total": 472.0,
+   "fatal": 27,
+   "pct_fatal": 90.0
+  },
+  "y": {
+   "n": 185,
+   "mean": 5.556756756756757,
+   "median": 0.0,
+   "q1": 0.0,
+   "q3": 2.0,
+   "max": 330.0,
+   "total": 1028.0,
+   "fatal": 74,
+   "pct_fatal": 40.0
+  },
+  "hl_shift": 7.0,
+  "hl_ci95": [
+   4.0,
+   12.0
+  ]
+ },
+ "pelra_vs_passenger": {
+  "mwu": {
+   "n1": 30,
+   "n2": 25,
+   "U_x": 540.0,
+   "U_y": 210.0,
+   "U": 210.0,
+   "z": 2.8327790492366014,
+   "p_asymptotic": 0.004739955636855252,
+   "r": 0.3819718490768141,
+   "x": {
+    "n": 30,
+    "mean": 15.733333333333333,
+    "median": 9.5,
+    "q1": 4.0,
+    "q3": 16.75,
+    "max": 167.0,
+    "total": 472.0,
+    "fatal": 27,
+    "pct_fatal": 90.0
+   },
+   "y": {
+    "n": 25,
+    "mean": 22.52,
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 8.0,
+    "max": 330.0,
+    "total": 563.0,
+    "fatal": 11,
+    "pct_fatal": 44.0
+   },
+   "hl_shift": 4.0,
+   "hl_ci95": [
+    1.0,
+    11.0
+   ]
+  },
+  "fisher_fatal": {
+   "odds_ratio": 11.454545454545455,
+   "p": 0.00034193757439757286
+  },
+  "mwu_fatal_only": {
+   "n1": 27,
+   "n2": 11,
+   "U_x": 141.0,
+   "U_y": 156.0,
+   "U": 141.0,
+   "z": -0.24185257843427183,
+   "p_asymptotic": 0.82141214447204,
+   "r": 0.03923366897774679,
+   "x": {
+    "n": 27,
+    "mean": 17.48148148148148,
+    "median": 13.0,
+    "q1": 4.0,
+    "q3": 17.5,
+    "max": 167.0,
+    "total": 472.0,
+    "fatal": 27,
+    "pct_fatal": 100.0
+   },
+   "y": {
+    "n": 11,
+    "mean": 51.18181818181818,
+    "median": 10.0,
+    "q1": 3.5,
+    "q3": 57.5,
+    "max": 330.0,
+    "total": 563.0,
+    "fatal": 11,
+    "pct_fatal": 100.0
+   },
+   "hl_shift": -1.0,
+   "hl_ci95": [
+    -35.0,
+    7.0
+   ]
+  }
+ },
+ "shapiro_pelra": {
+  "raw": {
+   "W": 0.43111435827128675,
+   "p": 1.0762770274522272e-09,
+   "n": 30
+  },
+  "winsorised": {
+   "W": 0.9151038736207154,
+   "p": 0.02005837680715282,
+   "cap": 32.799999999999955
+  }
+ },
+ "location_types": {
+  "Lake/reservoir": 3,
+  "Port": 1,
+  "River": 28,
+  "Sea": 183
+ },
+ "included_vs_excluded": {
+  "mwu": {
+   "n1": 23,
+   "n2": 7,
+   "U_x": 86.0,
+   "U_y": 75.0,
+   "U": 75.0,
+   "z": 0.2703490990028609,
+   "p_asymptotic": 0.8058588041867618,
+   "r": 0.04935876664168811,
+   "x": {
+    "n": 23,
+    "mean": 17.565217391304348,
+    "median": 9.0,
+    "q1": 3.0,
+    "q3": 17.5,
+    "max": 167.0,
+    "total": 404.0,
+    "fatal": 21,
+    "pct_fatal": 91.30434782608695
+   },
+   "y": {
+    "n": 7,
+    "mean": 9.714285714285714,
+    "median": 13.0,
+    "q1": 4.0,
+    "q3": 14.0,
+    "max": 19.0,
+    "total": 68.0,
+    "fatal": 6,
+    "pct_fatal": 85.71428571428571
+   },
+   "hl_shift": 1.0,
+   "hl_ci95": [
+    -8.0,
+    9.0
+   ],
+   "p_exact": 0.8012064053443364
+  },
+  "excluded_cases": [
+   9,
+   19,
+   21,
+   22,
+   24,
+   29,
+   30
+  ],
+  "excluded_types": {
+   "Fire/Explosion": 3,
+   "Collision/Contact": 2,
+   "Capsizing": 2
+  },
+  "excluded_fatalities": [
+   15.0,
+   4.0,
+   4.0,
+   13.0,
+   0.0,
+   19.0,
+   13.0
+  ],
+  "included_types": {
+   "Capsizing": 14,
+   "Collision/Contact": 5,
+   "Fire/Explosion": 4
+  }
+ },
+ "classification_groups": {
+  "Non-Classed Only": 24,
+  "Mixed Class": 6,
+  "Classed Only": 0
+ },
+ "classification_cases": {
+  "Non-Classed Only": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   7,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   22,
+   24,
+   26,
+   27,
+   28,
+   29,
+   30
+  ],
+  "Mixed Class": [
+   5,
+   8,
+   9,
+   21,
+   23,
+   25
+  ]
+ },
+ "classification_test": {
+  "test": "Mann-Whitney",
+  "groups": [
+   "Non-Classed Only",
+   "Mixed Class"
+  ],
+  "n1": 24,
+  "n2": 6,
+  "U_x": 86.0,
+  "U_y": 58.0,
+  "U": 58.0,
+  "z": 0.7276490466611895,
+  "p_asymptotic": 0.48289023792581354,
+  "r": 0.13284993226782088,
+  "x": {
+   "n": 24,
+   "mean": 17.75,
+   "median": 11.5,
+   "q1": 3.5,
+   "q3": 18.25,
+   "max": 167.0,
+   "total": 426.0,
+   "fatal": 21,
+   "pct_fatal": 87.5
+  },
+  "y": {
+   "n": 6,
+   "mean": 7.666666666666667,
+   "median": 4.5,
+   "q1": 4.0,
+   "q3": 12.5,
+   "max": 17.0,
+   "total": 46.0,
+   "fatal": 6,
+   "pct_fatal": 100.0
+  },
+  "hl_shift": 3.0,
+  "hl_ci95": [
+   -4.0,
+   13.0
+  ],
+  "p_exact": 0.4850069470759126
+ },
+ "layers": [
+  {
+   "layer": "Acts",
+   "instances": 40,
+   "pct_instances": 35.08771929824562,
+   "cases": 22,
+   "pct_cases": 95.65217391304348,
+   "distinct_codes": 8,
+   "weight": 105,
+   "weight_rating_1": 4,
+   "weight_rating_2": 28,
+   "weight_rating_3": 45,
+   "weight_rating_4": 28,
+   "n_rating_1": 4,
+   "n_rating_2": 14,
+   "n_rating_3": 15,
+   "n_rating_4": 7
+  },
+  {
+   "layer": "Preconditions",
+   "instances": 22,
+   "pct_instances": 19.29824561403509,
+   "cases": 19,
+   "pct_cases": 82.6086956521739,
+   "distinct_codes": 10,
+   "weight": 58,
+   "weight_rating_1": 1,
+   "weight_rating_2": 20,
+   "weight_rating_3": 21,
+   "weight_rating_4": 16,
+   "n_rating_1": 1,
+   "n_rating_2": 10,
+   "n_rating_3": 7,
+   "n_rating_4": 4
+  },
+  {
+   "layer": "Operational Leadership",
+   "instances": 18,
+   "pct_instances": 15.789473684210526,
+   "cases": 15,
+   "pct_cases": 65.21739130434783,
+   "distinct_codes": 9,
+   "weight": 54,
+   "weight_rating_1": 0,
+   "weight_rating_2": 10,
+   "weight_rating_3": 24,
+   "weight_rating_4": 20,
+   "n_rating_1": 0,
+   "n_rating_2": 5,
+   "n_rating_3": 8,
+   "n_rating_4": 5
+  },
+  {
+   "layer": "Organisation",
+   "instances": 34,
+   "pct_instances": 29.82456140350877,
+   "cases": 21,
+   "pct_cases": 91.30434782608695,
+   "distinct_codes": 5,
+   "weight": 103,
+   "weight_rating_1": 1,
+   "weight_rating_2": 20,
+   "weight_rating_3": 30,
+   "weight_rating_4": 52,
+   "n_rating_1": 1,
+   "n_rating_2": 10,
+   "n_rating_3": 10,
+   "n_rating_4": 13
+  }
+ ],
+ "categories": [
+  {
+   "layer": "Acts",
+   "category": "Planning and Decision Making",
+   "abbrev": "PD",
+   "instances": 16,
+   "cases": 15,
+   "pct_cases": 65.21739130434783,
+   "weight": 47
+  },
+  {
+   "layer": "Acts",
+   "category": "Perception",
+   "abbrev": "Pn",
+   "instances": 13,
+   "cases": 12,
+   "pct_cases": 52.17391304347826,
+   "weight": 31
+  },
+  {
+   "layer": "Acts",
+   "category": "Communication",
+   "abbrev": "Cn",
+   "instances": 6,
+   "cases": 6,
+   "pct_cases": 26.08695652173913,
+   "weight": 14
+  },
+  {
+   "layer": "Acts",
+   "category": "Intentional Deviation",
+   "abbrev": "ID",
+   "instances": 5,
+   "cases": 5,
+   "pct_cases": 21.73913043478261,
+   "weight": 13
+  },
+  {
+   "layer": "Preconditions",
+   "category": "Equipment and Workplace",
+   "abbrev": "EW",
+   "instances": 12,
+   "cases": 12,
+   "pct_cases": 52.17391304347826,
+   "weight": 32
+  },
+  {
+   "layer": "Preconditions",
+   "category": "Competence, Skills and Capability",
+   "abbrev": "CS",
+   "instances": 5,
+   "cases": 5,
+   "pct_cases": 21.73913043478261,
+   "weight": 12
+  },
+  {
+   "layer": "Preconditions",
+   "category": "Awareness",
+   "abbrev": "As",
+   "instances": 3,
+   "cases": 3,
+   "pct_cases": 13.043478260869565,
+   "weight": 8
+  },
+  {
+   "layer": "Preconditions",
+   "category": "Physical Environment",
+   "abbrev": "PE",
+   "instances": 1,
+   "cases": 1,
+   "pct_cases": 4.3478260869565215,
+   "weight": 2
+  },
+  {
+   "layer": "Preconditions",
+   "category": "Physiological Condition",
+   "abbrev": "PC",
+   "instances": 1,
+   "cases": 1,
+   "pct_cases": 4.3478260869565215,
+   "weight": 4
+  },
+  {
+   "layer": "Operational Leadership",
+   "category": "Task Leadership",
+   "abbrev": "TL",
+   "instances": 8,
+   "cases": 8,
+   "pct_cases": 34.78260869565217,
+   "weight": 27
+  },
+  {
+   "layer": "Operational Leadership",
+   "category": "Operations Planning",
+   "abbrev": "OP",
+   "instances": 7,
+   "cases": 6,
+   "pct_cases": 26.08695652173913,
+   "weight": 18
+  },
+  {
+   "layer": "Operational Leadership",
+   "category": "Personnel Leadership",
+   "abbrev": "PL",
+   "instances": 3,
+   "cases": 3,
+   "pct_cases": 13.043478260869565,
+   "weight": 9
+  },
+  {
+   "layer": "Organisation",
+   "category": "Resources",
+   "abbrev": "Rs",
+   "instances": 23,
+   "cases": 17,
+   "pct_cases": 73.91304347826087,
+   "weight": 63
+  },
+  {
+   "layer": "Organisation",
+   "category": "Culture",
+   "abbrev": "Ce",
+   "instances": 8,
+   "cases": 8,
+   "pct_cases": 34.78260869565217,
+   "weight": 29
+  },
+  {
+   "layer": "Organisation",
+   "category": "Economy and Business",
+   "abbrev": "EB",
+   "instances": 2,
+   "cases": 2,
+   "pct_cases": 8.695652173913043,
+   "weight": 7
+  },
+  {
+   "layer": "Organisation",
+   "category": "Safety Management",
+   "abbrev": "SM",
+   "instances": 1,
+   "cases": 1,
+   "pct_cases": 4.3478260869565215,
+   "weight": 4
+  }
+ ],
+ "table4_group_n": {
+  "Capsizing": 14,
+  "Collision/Contact": 5,
+  "Fire/Explosion": 4
+ },
+ "rq3_associations": [
+  {
+   "macro": "Operations Planning",
+   "codes": "LO1,LO2,LO6",
+   "cases": [
+    4,
+    10,
+    11,
+    13,
+    14,
+    20
+   ],
+   "n1": 6,
+   "n2": 17,
+   "U_x": 72.5,
+   "U": 29.5,
+   "z": 1.5067907503585056,
+   "r": 0.31418759041762384,
+   "p_asymptotic": 0.14108864189706524,
+   "p_exact": 0.14061834427967151,
+   "hl_shift": 6.5,
+   "hl_ci95": [
+    -4.0,
+    16.0
+   ],
+   "median_present": 15.5,
+   "iqr_present": [
+    10.75,
+    21.0
+   ],
+   "median_absent": 7.0,
+   "iqr_absent": [
+    2.0,
+    16.0
+   ],
+   "winsor_U_x": 72.5,
+   "winsor_p_exact": 0.1395286635561235,
+   "q_BH_exact": 0.2318840579710145,
+   "q_BH_asymptotic": 0.2022500440174252
+  },
+  {
+   "macro": "Culture",
+   "codes": "OC1",
+   "cases": [
+    1,
+    4,
+    6,
+    11,
+    14,
+    20,
+    25,
+    28
+   ],
+   "n1": 8,
+   "n2": 15,
+   "U_x": 87.5,
+   "U": 32.5,
+   "z": 1.7768740397493892,
+   "r": 0.3705038492515713,
+   "p_asymptotic": 0.08106022765562124,
+   "p_exact": 0.07839058236150712,
+   "hl_shift": 9.5,
+   "hl_ci95": [
+    -2.0,
+    15.0
+   ],
+   "median_present": 16.5,
+   "iqr_present": [
+    13.75,
+    19.0
+   ],
+   "median_absent": 5.0,
+   "iqr_absent": [
+    2.0,
+    11.0
+   ],
+   "winsor_U_x": 87.5,
+   "winsor_p_exact": 0.07749115872685666,
+   "q_BH_exact": 0.2318840579710145,
+   "q_BH_asymptotic": 0.2022500440174252
+  },
+  {
+   "macro": "Resources",
+   "codes": "OR3,OR5",
+   "cases": [
+    1,
+    4,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17,
+    18,
+    20,
+    23,
+    26,
+    27,
+    28
+   ],
+   "n1": 17,
+   "n2": 6,
+   "U_x": 36.5,
+   "U": 36.5,
+   "z": -1.016207715358062,
+   "r": 0.21189395632816493,
+   "p_asymptotic": 0.3265108532544875,
+   "p_exact": 0.32992560452514685,
+   "hl_shift": -5.0,
+   "hl_ci95": [
+    -16.0,
+    6.0
+   ],
+   "median_present": 8.0,
+   "iqr_present": [
+    2.0,
+    16.0
+   ],
+   "median_absent": 16.0,
+   "iqr_absent": [
+    7.5,
+    17.75
+   ],
+   "winsor_U_x": 36.0,
+   "winsor_p_exact": 0.3096476368787582,
+   "q_BH_exact": 0.32992560452514685,
+   "q_BH_asymptotic": 0.3265108532544875
+  },
+  {
+   "macro": "Safety Management",
+   "codes": "OS2",
+   "cases": [
+    2
+   ],
+   "n1": 1,
+   "n2": 22,
+   "U_x": 21.0,
+   "U": 1.0,
+   "z": 1.5090486151122757,
+   "r": 0.31465838776377636,
+   "p_asymptotic": 0.1516875330130689,
+   "p_exact": 0.17391304347826086,
+   "hl_shift": 31.5,
+   "hl_ci95": [
+    -127.0,
+    40.0
+   ],
+   "median_present": 40.0,
+   "iqr_present": [
+    40.0,
+    40.0
+   ],
+   "median_absent": 8.5,
+   "iqr_absent": [
+    2.5,
+    16.75
+   ],
+   "winsor_U_x": 21.5,
+   "winsor_p_exact": 0.17391304347826086,
+   "q_BH_exact": 0.2318840579710145,
+   "q_BH_asymptotic": 0.2022500440174252
+  }
+ ],
+ "rq3_winsor_cap": 38.39999999999998,
+ "spearman_codes_fatalities": {
+  "distinct_codes": {
+   "rho": 0.05102573612590125,
+   "p": 0.8171482578199895
+  },
+  "instances": {
+   "rho": -0.05062739098320353,
+   "p": 0.8185525867148516
+  }
+ },
+ "shapiro_coded23": {
+  "W": 0.4567687226190973,
+  "p": 3.396594697053164e-08
+ },
+ "packages": [
+  {
+   "package": "ME",
+   "name": "Mandatory Basic Safety Equipment Package",
+   "n_support": 15,
+   "codes_display": "OR3, PEW3",
+   "F": 26.0,
+   "score": 73.0,
+   "S": 2.0,
+   "PW": 146.0,
+   "rank": 2,
+   "case_coverage": 19
+  },
+  {
+   "package": "MC",
+   "name": "Master Competency & Emergency Training",
+   "n_support": 13,
+   "codes_display": "AD1, AP1, LO1",
+   "F": 31.0,
+   "score": 84.0,
+   "S": 1.8666666666666667,
+   "PW": 156.8,
+   "rank": 1,
+   "case_coverage": 21
+  },
+  {
+   "package": "VS",
+   "name": "Vessel Stability & Safe Loading Rules",
+   "n_support": 14,
+   "codes_display": "LO1, AD1",
+   "F": 18.0,
+   "score": 53.0,
+   "S": 1.9333333333333333,
+   "PW": 102.46666666666667,
+   "rank": 5,
+   "case_coverage": 16
+  },
+  {
+   "package": "PM",
+   "name": "Passenger & Cargo Manifest System",
+   "n_support": 11,
+   "codes_display": "LT3, OS2, OE3",
+   "F": 6.0,
+   "score": 21.0,
+   "S": 1.7333333333333334,
+   "PW": 36.4,
+   "rank": 9,
+   "case_coverage": 4
+  },
+  {
+   "package": "PS",
+   "name": "Harbourmaster Pre-departure Inspection Checklist",
+   "n_support": 12,
+   "codes_display": "OR3, LO1, LT1",
+   "F": 26.0,
+   "score": 72.0,
+   "S": 1.8,
+   "PW": 129.6,
+   "rank": 3,
+   "case_coverage": 18
+  },
+  {
+   "package": "WI",
+   "name": "Wooden Hull Condition Surveys",
+   "n_support": 9,
+   "codes_display": "PEW3, OR3",
+   "F": 26.0,
+   "score": 73.0,
+   "S": 1.6,
+   "PW": 116.80000000000001,
+   "rank": 4,
+   "case_coverage": 19
+  },
+  {
+   "package": "IG",
+   "name": "Informative Marine Weather Warnings",
+   "n_support": 14,
+   "codes_display": "PPE6, AP1",
+   "F": 14.0,
+   "score": 33.0,
+   "S": 1.9333333333333333,
+   "PW": 63.8,
+   "rank": 7,
+   "case_coverage": 13
+  },
+  {
+   "package": "DI",
+   "name": "Distress Communication Radio Network",
+   "n_support": 12,
+   "codes_display": "PEW5, AP1",
+   "F": 18.0,
+   "score": 44.0,
+   "S": 1.8,
+   "PW": 79.2,
+   "rank": 6,
+   "case_coverage": 14
+  },
+  {
+   "package": "RS",
+   "name": "Regional Safety Supervision Units",
+   "n_support": 10,
+   "codes_display": "LO1, LO6",
+   "F": 5.0,
+   "score": 14.0,
+   "S": 1.6666666666666665,
+   "PW": 23.333333333333332,
+   "rank": 10,
+   "case_coverage": 5
+  },
+  {
+   "package": "CI",
+   "name": "Community Safety Culture Campaigns",
+   "n_support": 11,
+   "codes_display": "OC1, LO6",
+   "F": 9.0,
+   "score": 31.0,
+   "S": 1.7333333333333334,
+   "PW": 53.733333333333334,
+   "rank": 8,
+   "case_coverage": 8
+  }
+ ],
+ "package_sensitivity_rank_agreement": {
+  "score_only_no_S": {
+   "kendall_tau": 0.9438798074485389,
+   "p": 0.00016213175204392636
+  },
+  "case_level_tiers": {
+   "kendall_tau": 0.9555555555555554,
+   "p": 5.5114638447971785e-06
+  },
+  "frequency_only": {
+   "kendall_tau": 0.9999999999999999,
+   "p": 5.511463844797178e-07
+  },
+  "geometric_1_2_4_8": {
+   "kendall_tau": 0.9555555555555554,
+   "p": 5.5114638447971785e-06
+  },
+  "normalised_per_code": {
+   "kendall_tau": 0.8222222222222221,
+   "p": 0.0003576940035273369
+  },
+  "case_coverage": {
+   "kendall_tau": 0.911111111111111,
+   "p": 2.9761904761904762e-05
+  }
+ },
+ "sensitivity_non_wooden_excluded": {
+  "excluded_cases": [
+   7,
+   26,
+   28
+  ],
+  "n_pelra": 27,
+  "n_coded": 20,
+  "pelra": {
+   "n": 27,
+   "mean": 16.85185185185185,
+   "median": 13.0,
+   "q1": 4.0,
+   "q3": 17.5,
+   "max": 167.0,
+   "total": 455.0,
+   "fatal": 24,
+   "pct_fatal": 88.88888888888889
+  },
+  "pelra_vs_comparators": {
+   "U": 886.5,
+   "U_x": 3919.5,
+   "z": 5.760293880685938,
+   "p_asymptotic": 8.491762550953872e-09,
+   "r": 0.4023163758807171
+  },
+  "fleet_kruskal": {
+   "H": 38.070855404177394,
+   "df": 6,
+   "p": 1.088094419469234e-06,
+   "n": 205,
+   "k": 7,
+   "eta2_H": 0.16197401719281512,
+   "epsilon2": 0.18662184021655584
+  },
+  "layers": {
+   "Acts": {
+    "instances": 35,
+    "pct_instances": 36.08247422680412,
+    "cases": 19
+   },
+   "Preconditions": {
+    "instances": 19,
+    "pct_instances": 19.587628865979383,
+    "cases": 16
+   },
+   "Operational Leadership": {
+    "instances": 15,
+    "pct_instances": 15.463917525773196,
+    "cases": 13
+   },
+   "Organisation": {
+    "instances": 28,
+    "pct_instances": 28.865979381443296,
+    "cases": 18
+   }
+  },
+  "top_codes": {
+   "OR3": {
+    "cases": 14,
+    "pct": 70.0
+   },
+   "AD1": {
+    "cases": 12,
+    "pct": 60.0
+   },
+   "AP1": {
+    "cases": 11,
+    "pct": 55.0
+   },
+   "OC1": {
+    "cases": 7,
+    "pct": 35.0
+   }
+  },
+  "rq3": [
+   {
+    "macro": "Operations Planning",
+    "n1": 6,
+    "n2": 14,
+    "U": 27.5,
+    "p_exact": 0.24837461300309596,
+    "q_BH_exact": 0.33116615067079463
+   },
+   {
+    "macro": "Culture",
+    "n1": 7,
+    "n2": 13,
+    "U": 20.0,
+    "p_exact": 0.04280185758513932,
+    "q_BH_exact": 0.17120743034055727
+   },
+   {
+    "macro": "Resources",
+    "n1": 14,
+    "n2": 6,
+    "U": 32.5,
+    "p_exact": 0.45632094943240453,
+    "q_BH_exact": 0.45632094943240453
+   },
+   {
+    "macro": "Safety Management",
+    "n1": 1,
+    "n2": 19,
+    "U": 1.0,
+    "p_exact": 0.2,
+    "q_BH_exact": 0.33116615067079463
+   }
+  ],
+  "packages": {
+   "ME": 106.0,
+   "MC": 143.7,
+   "VS": 92.8,
+   "PM": 36.4,
+   "PS": 106.2,
+   "WI": 84.8,
+   "IG": 59.9,
+   "DI": 75.6,
+   "RS": 23.3,
+   "CI": 46.8
+  },
+  "package_ranks": {
+   "ME": 3,
+   "MC": 1,
+   "VS": 4,
+   "PM": 9,
+   "PS": 2,
+   "WI": 5,
+   "IG": 7,
+   "DI": 6,
+   "RS": 10,
+   "CI": 8
+  },
+  "rank_agreement_tau": 0.911111111111111
+ },
+ "table2_weighted_mean_experience": 20.006666666666668
+}

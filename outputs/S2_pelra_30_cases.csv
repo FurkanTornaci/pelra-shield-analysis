@@ -1,0 +1,31 @@
+case_no,year,category,acc_group,area,location,cas_class,fat,report,included,exclusion_reason,coding_case,vessel_names,class_column_J,classification_group,knkt_report,non_wooden_hull,report_status_cleaned_data
+1,2007,Capsizing,Capsizing,Banda Sea,Sea,VSMC,16.0,Final,True,,1.0,KM. Wahai Star,Non-klas,Non-Classed Only,KNKT.07.07.05.03,,FINAL
+2,2007,Capsizing,Capsizing,Banda Sea,Sea,VSMC,40.0,Final,True,,2.0,KM. Acita 03,Non-klas,Non-Classed Only,KNKT.07.10.06.03,,FINAL
+3,2008,Capsizing,Capsizing,Java Sea,Sea,VSMC,2.0,Final,True,,3.0,KM. Samudra Makmur Jaya,Non-klas,Non-Classed Only,KNKT.08.04.04.03,,FINAL
+4,2008,Capsizing,Capsizing,Sawu Sea,Sea,VSMC,10.0,Final,True,,4.0,Perahu Kole-Kole,Non-klas,Non-Classed Only,KNKT.08.11.05.03,,FINAL
+5,2011,Collision,Collision/Contact,Musi River,River,VSMC,5.0,Final,True,,5.0,MT. Gloria Sentosa / KMS. Irpansya,BKI;Non-klas,Mixed Class,KNKT.11.03.03.03,,FINAL
+6,2016,Capsizing,Capsizing,Riau Strait (Tanjungpinang),Sea,VSMC,15.0,Final,True,,6.0,Kapal Pancung,Non-Klas,Non-Classed Only,KNKT.16.08.07.03,,FINAL
+7,2016,Fire,Fire/Explosion,Maluku Sea (Jailolo),Sea,VSMC,7.0,Final,True,,7.0,KM. Bintang Fajar,Non-Klas,Non-Classed Only,KNKT.16.10.11.03,"fibreglass (KNKT.16.10.11.03, pp. 29, 35)",FINAL
+8,2016,Collision,Collision/Contact,Malaka Strait,Sea,VSMC,1.0,Final,True,,8.0,MT. Victory Prima / KM. Jaya 2,BKI;Non-Klas,Mixed Class,KNKT.16.11.14.03,,FINAL
+9,2016,Collision,Collision/Contact,Java Sea,Sea,VSMC,15.0,In progress,False,NTSC report status 'In progress' (not final),,,NK;Non-Klas,Mixed Class,,,FINAL
+10,2016,Capsizing,Capsizing,Maluku Sea (Jailolo),Sea,VSMC,4.0,Final,True,,9.0,KM. Karamando,Non-Klas,Non-Classed Only,KNKT.16.12.18.03,,FINAL
+11,2017,Fire,Fire/Explosion,Java Sea,Sea,VSMC,24.0,Final,True,,10.0,KM. Zahro Express,Non-Klas,Non-Classed Only,KNKT.17.01.01.03,,FINAL
+12,2017,Capsizing,Capsizing,Flores Sea,Sea,VSMC,0.0,Final,True,,11.0,KM. Fungka Permata III,Non-Klas,Non-Classed Only,KNKT.17.09.26.03,,FINAL
+13,2018,Capsizing,Capsizing,Musi River,River,VSMC,13.0,Final,True,,12.0,Awet Muda,Non-Klas,Non-Classed Only,KNKT.18.01.02.03,,FINAL
+14,2018,Capsizing,Capsizing,Makassar Strait,Sea,VSMC,18.0,Final,True,,13.0,Arista,Non-Klas,Non-Classed Only,KNKT.18.06.20.03,,FINAL
+15,2018,Capsizing,Capsizing,Toba Lake,Lake/reservoir,VSMC,167.0,Final,True,,14.0,Sinar Bangun 4,Non-Klas,Non-Classed Only,KNKT.18.06.21.03,,FINAL
+16,2018,Capsizing,Capsizing,Indian Ocean,Sea,VSMC,2.0,Final,True,,15.0,Penta Prima,Non-Klas,Non-Classed Only,KNKT.18.07.25.03,,FINAL
+17,2018,Fire,Fire/Explosion,Banggai waters (Central Sulawesi),Sea,VSMC,19.0,Final,True,,16.0,Fungka Permata V,Non-Klas,Non-Classed Only,KNKT.18.09.31.03,,FINAL
+18,2018,Collision,Collision/Contact,Singapore Strait,Sea,VSMC,0.0,Final,True,,17.0,Makmur,Non-Klas,Non-Classed Only,KNKT.18.12.37.03,,FINAL
+19,2019,Fire,Fire/Explosion,River Maro,River,VSMC,4.0,In progress,False,NTSC report status 'In progress' (not final),,,Non-Klas,Non-Classed Only,,,DF Dalam proses penyusunan
+20,2019,Capsizing,Capsizing,Java Sea,Sea,VSMC,22.0,Final,True,,18.0,Arin Jaya,Non-Klas,Non-Classed Only,KNKT.19.06.15.03,,FINAL
+21,2019,Collision,Collision/Contact,Gelasa Strait,Sea,VSMC,4.0,In progress,False,NTSC report status 'In progress' (not final),,,BKI;Non-Klas,Mixed Class,,,FINAL
+22,2019,Fire,Fire/Explosion,Maluku Sea,Sea,VSMC,13.0,In progress,False,NTSC report status 'In progress' (not final),,,Non-Klas,Non-Classed Only,,,Drafting process
+23,2020,Capsizing after Collision,Collision/Contact,Indian Ocean,Sea,VSMC,4.0,Final,True,,19.0,Cape Kallia / Kerinci Indah 2,NK;Non-Klas,Mixed Class,KNKT.20.11.11.03,,FINAL
+24,2021,Fire,Fire/Explosion,Port of Sorong,Port,SMC,0.0,In progress,False,NTSC report status 'In progress' (not final),,,Non-Klas,Non-Classed Only,,,Drafting process
+25,2021,Collision,Collision/Contact,Java Sea,Sea,VSMC,17.0,Final,True,,20.0,Habco Pioneer / Barokah Jaya,NK;Non-Klas,Mixed Class,KNKT.21.04.07.03,,FINAL
+26,2021,Capsizing,Capsizing,Reservoir,Lake/reservoir,VSMC,9.0,Final,True,,21.0,Perahu Gako,Non-Klas,Non-Classed Only,KNKT.21.05.09.03,"fibre (KNKT.21.05.09.03, p. 6)",FINAL
+27,2021,Capsizing,Capsizing,Malaka Strait,Sea,VSMC,8.0,Final,True,,22.0,Wicly Jaya Sakti,Non-Klas,Non-Classed Only,KNKT.21.05.11.03,,FINAL
+28,2021,Fire,Fire/Explosion,Maluku Sea,Sea,VSMC,1.0,Final,True,,23.0,Karya Indah,Non-Klas,Non-Classed Only,KNKT.21.05.12.03,"steel, GT 1148 (KNKT.21.05.12.03, p. 19)",FINAL
+29,2022,Capsizing,Capsizing,Makassar Strait,Sea,VSMC,19.0,In progress,False,NTSC report status 'In progress' (not final),,,Non-Klas,Non-Classed Only,,,DF Dalam proses penyusunan
+30,2022,Capsizing,Capsizing,Maluku Sea,Sea,VSMC,13.0,In progress,False,NTSC report status 'In progress' (not final),,,Non-Klas,Non-Classed Only,,,Preliminary Draft Report

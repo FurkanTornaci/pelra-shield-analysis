@@ -1,0 +1,216 @@
+Row ID,year,case,category,acc_group,area,location,cas_class,fleet,retained,fat,fatal,Consequence,Factor,report
+1,2007,,Fire,Fire/Explosion,Lombok Strait,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Medium damage,Technical,Final
+2,2007,,Fire,Fire/Explosion,Java Sea,Sea,VSMC,Ro-Ro Ferry,True,50.0,True,Total Loss,Technical,Final
+3,2007,,Explosion,Fire/Explosion,Siak River,River,VSMC,Tanker,True,4.0,True,Total Loss,Technical,Final
+4,2007,,Capsizing,Capsizing,Musi River,River,VSMC,Tanker,True,0.0,False,Total Loss,Technical,In progress
+5,2007,Case 1,Capsizing,Capsizing,Banda Sea,Sea,VSMC,Pelra,True,16.0,True,Total Loss,Human,Final
+6,2007,Case 2,Capsizing,Capsizing,Banda Sea,Sea,VSMC,Pelra,True,40.0,True,Total Loss,Human,Final
+7,2008,,Fire,Fire/Explosion,Java Sea,Sea,VSMC,Tanker,True,0.0,False,Heavy damage,Technical,Final
+8,2008,,Fire,Fire/Explosion,Indian Ocean,Sea,VSMC,Tanker,True,1.0,True,Heavy damage,Technical,Final
+9,2008,,Fire,Fire/Explosion,Mentaya River,River,VSMC,Ro-Ro Ferry,True,1.0,True,Heavy damage,Human,Final
+10,2008,Case 3,Capsizing,Capsizing,Java Sea,Sea,VSMC,Pelra,True,2.0,True,Total Loss,Technical,Final
+11,2008,Case 4,Capsizing,Capsizing,Sawu Sea,Sea,VSMC,Pelra,True,10.0,True,Total Loss,Human,Final
+12,2009,,Capsizing,Capsizing,Makassar Strait,Sea,VSMC,Passenger,True,330.0,True,Total Loss,Human,Final
+13,2009,,Collision,Collision/Contact,Java Sea,Sea,VSMC,General Cargo,True,0.0,False,Total Loss,Human,Final
+14,2009,,Fire,Fire/Explosion,Java Sea,Sea,VSMC,Ro-Ro Ferry,True,6.0,True,Heavy damage,Technical,Final
+15,2009,,Capsizing,Capsizing,Malaka Strait,Sea,VSMC,Passenger,True,75.0,True,Total Loss,Technical,Final
+16,2010,,Capsizing,Capsizing,Makassar Strait,Sea,VSMC,General Cargo,True,0.0,False,Total Loss,Technical,Final
+17,2010,,Fire,Fire/Explosion,Makassar Strait,Sea,VSMC,General Cargo,True,2.0,True,Heavy damage,Technical,Final
+18,2010,,Collision,Collision/Contact,Java Sea,Sea,VSMC,Tanker,True,0.0,False,Total Loss,Human,Final
+19,2010,,Collision,Collision/Contact,Java Sea,Sea,VSMC,General Cargo,True,0.0,False,Total Loss,Human,Final
+20,2010,,Collision,Collision/Contact,Java Sea,Sea,VSMC,General Cargo,True,13.0,True,Total Loss,Human,Final
+21,2011,,Fire,Fire/Explosion,Sunda Strait,Sea,VSMC,Ro-Ro Ferry,True,27.0,True,Total Loss,Human,Final
+22,2011,,Fire,Fire/Explosion,Java Sea,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Total Loss,Technical,Final
+23,2011,Case 5,Collision,Collision/Contact,Musi River,River,VSMC,Pelra,True,5.0,True,Total Loss,Human,Final
+24,2011,,Fire,Fire/Explosion,Java Sea,Sea,VSMC,Ro-Ro Ferry,True,0.0,False,Heavy damage,Technical,Final
+25,2011,,Capsizing,Capsizing,Bone Bay,Sea,VSMC,Ro-Ro Ferry,True,36.0,True,Total Loss,Technical,Final
+26,2011,,Collision,Collision/Contact,Barito River,River,VSMC,Ro-Ro Ferry,True,18.0,True,Total Loss,Technical,Final
+27,2012,,Fire,Fire/Explosion,Mahakam River,River,VSMC,Barge,False,4.0,True,Heavy damage,Technical,Final
+28,2012,,Fire,Fire/Explosion,Makassar Strait,Sea,VSMC,Tanker,True,2.0,True,Total Loss,Human,Final
+29,2012,,Collision,Collision/Contact,Sunda Strait,Sea,VSMC,Ro-Ro Ferry,True,7.0,True,Total Loss,Human,Final
+30,2012,,Collision,Collision/Contact,Java Sea,Sea,VSMC,Container,True,0.0,False,Total Loss,Human,Final
+31,2013,,Collision,Collision/Contact,Java Sea,Sea,VSMC,Container,True,1.0,True,Total Loss,Human,Final
+32,2013,,Capsizing,Capsizing,Banda Sea,Sea,VSMC,Container,True,19.0,True,Total Loss,Technical,Final
+33,2013,,Collision,Collision/Contact,Java Sea,Sea,SMC,General Cargo,True,0.0,False,Heavy damage,Human,Final
+34,2013,,Fire,Fire/Explosion,Karimata Strait,Sea,VSMC,Passenger,True,12.0,True,Total Loss,Human,Final
+35,2013,,Fire,Fire/Explosion,Java Sea,Sea,VSMC,General Cargo,True,0.0,False,Heavy damage,Technical,Final
+36,2013,,Capsizing,Capsizing,Java Sea,Sea,VSMC,General Cargo,True,13.0,True,Total Loss,Technical,Final
+37,2014,,Capsizing,Capsizing,Flores Sea,Sea,VSMC,Ro-Ro Ferry,True,9.0,True,Total Loss,Technical,Final
+38,2014,,Capsizing,Capsizing,Java Sea,Sea,VSMC,Ro-Ro Ferry,True,0.0,False,Total Loss,Technical,Final
+39,2014,,Collision,Collision/Contact,Java Sea,Sea,VSMC,General Cargo,True,0.0,False,Total Loss,Human,Final
+40,2014,,Fire,Fire/Explosion,Lombok Strait,Sea,VSMC,Ro-Ro Ferry,True,0.0,False,Heavy damage,Technical,Final
+41,2014,,Fire,Fire/Explosion,Bangka Strait,Sea,VSMC,Tanker,True,5.0,True,Heavy damage,Technical,Final
+42,2014,,Collision,Collision/Contact,Java Sea,Sea,VSMC,General Cargo,True,2.0,True,Total Loss,Human,Final
+43,2014,,Fire,Fire/Explosion,Makassar Strait,Sea,VSMC,Tanker,True,1.0,True,Heavy damage,Technical,Final
+44,2015,,Fire,Fire/Explosion,Flores Sea,Sea,VSMC,General Cargo,True,1.0,True,Medium damage,Technical,Final
+45,2015,,Collision,Collision/Contact,Java Sea,Sea,SMC,Tanker,True,0.0,False,Heavy damage,Human,Final
+46,2015,,Capsizing,Capsizing,Java Sea,Sea,VSMC,Container,True,0.0,False,Total Loss,Technical,Final
+47,2015,,Fire,Fire/Explosion,Musi River,River,SMC,Bulk Carrier,True,0.0,False,Medium damage,Technical,Final
+48,2015,,Fire,Fire/Explosion,Java Sea,Sea,SMC,General Cargo,True,0.0,False,Medium damage,Technical,Final
+49,2015,,Capsizing,Capsizing,Java Sea,Sea,VSMC,Ro-Ro Ferry,True,0.0,False,Total Loss,Technical,Final
+50,2015,,Fire,Fire/Explosion,Sunda Strait,Sea,SMC,Tanker,True,0.0,False,Heavy damage,Technical,Final
+51,2015,,Grounding,Grounding,Singapore Strait,Sea,SMC,Passenger,True,0.0,False,Heavy damage,-,Final
+52,2015,,Grounding,Grounding,Sunda Strait,Sea,SMC,Container,True,0.0,False,Minor damage,Human,Final
+53,2015,,Collision,Collision/Contact,Singapore Strait,Sea,VSMC,General Cargo,True,6.0,True,Total Loss,Human,Final
+54,2015,,Capsizing,Capsizing,Bone Bay,Sea,VSMC,Passenger,True,78.0,True,Total Loss,Technical,Final
+55,2016,,Other,Other,Malaka Strait,Sea,VSMC,Tanker,True,1.0,True,Medium damage,Technical,Final
+56,2016,,Capsizing,Capsizing,Bali Strait,Sea,VSMC,Ro-Ro Ferry,True,7.0,True,Total Loss,Technical,Final
+57,2016,,Other,Other,Java Sea,Sea,VSMC,Bulk Carrier,True,1.0,True,Minor damage,Technical,Final
+58,2016,,Fire,Fire/Explosion,Karimata Strait,Sea,VSMC,Tanker,True,2.0,True,Minor damage,Human,Final
+59,2016,,Collision,Collision/Contact,Java Sea,Sea,VSMC,Landing Craft,False,0.0,False,Total Loss,-,In progress
+60,2016,,Grounding,Grounding,Kapuas River,River,SMC,Passenger,True,0.0,False,Minor damage,Human,Final
+61,2016,Case 6,Capsizing,Capsizing,Riau Strait (Tanjungpinang),Sea,VSMC,Pelra,True,15.0,True,Total Loss,Human,Final
+62,2016,,Fire,Fire/Explosion,Lombok Strait,Sea,VSMC,Passenger,True,2.0,True,Medium damage,Technical,Final
+63,2016,,Fire,Fire/Explosion,Java Sea,Sea,SMC,Bulk Carrier,True,0.0,False,Medium damage,Technical,Final
+64,2016,,Capsizing,Capsizing,Flores Sea,Sea,VSMC,Ro-Ro Ferry,True,0.0,False,Total Loss,Human,Final
+65,2016,Case 7,Fire,Fire/Explosion,Maluku Sea (Jailolo),Sea,VSMC,Pelra,True,7.0,True,Total Loss,Technical,Final
+66,2016,,Grounding,Grounding,Makassar Strait,Sea,SMC,Passenger,True,0.0,False,Heavy damage,-,In progress
+67,2016,,Capsizing,Capsizing,Madura Strait,Sea,VSMC,General Cargo,True,4.0,True,Heavy damage,Human,Final
+68,2016,Case 8,Collision,Collision/Contact,Malaka Strait,Sea,VSMC,Pelra,True,1.0,True,Total Loss,Human,Final
+69,2016,Case 9,Collision,Collision/Contact,Java Sea,Sea,VSMC,Pelra,True,15.0,True,Total Loss,Human,In progress
+70,2016,,Capsizing,Capsizing,Sunda Strait,Sea,VSMC,Tanker,True,4.0,True,Total Loss,Technical,Final
+71,2016,,Grounding,Grounding,Seram Sea,Sea,SMC,Passenger,True,0.0,False,Minor damage,Human,Final
+72,2016,Case 10,Capsizing,Capsizing,Maluku Sea (Jailolo),Sea,VSMC,Pelra,True,4.0,True,Total Loss,Technical,Final
+73,2017,Case 11,Fire,Fire/Explosion,Java Sea,Sea,VSMC,Pelra,True,24.0,True,Total Loss,Technical,Final
+74,2017,,Fire,Fire/Explosion,Sunda Strait,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Minor damage,Human,Final
+75,2017,,Fire,Fire/Explosion,Makassar Strait,Sea,VSMC,Container,True,0.0,False,Heavy damage,-,In progress
+76,2017,,Fire,Fire/Explosion,Maluku Sea,Sea,VSMC,Passenger,True,0.0,False,Heavy damage,Human,Final
+77,2017,,Capsizing,Capsizing,Java Sea,Sea,VSMC,Container,True,0.0,False,Total Loss,Technical,Final
+78,2017,,Collision,Collision/Contact,Java Sea,Sea,VSMC,General Cargo,True,0.0,False,Total Loss,Human,Final
+79,2017,,Collision,Collision/Contact,Kapuas River,River,SMC,Tanker,True,0.0,False,Heavy damage,-,In progress
+80,2017,,Fire,Fire/Explosion,Java Sea,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Minor damage,Technical,Final
+81,2017,,Grounding,Grounding,Karimata Strait,Sea,SMC,Tanker,True,0.0,False,Minor damage,-,In progress
+82,2017,,Fire,Fire/Explosion,Makassar Strait,Sea,VSMC,Landing Craft,False,1.0,True,Medium damage,Technical,Final
+83,2017,,Fire,Fire/Explosion,Banda Sea,Sea,VSMC,Tanker,True,4.0,True,Heavy damage,Technical,Final
+84,2017,,Fire,Fire/Explosion,Java Sea,Sea,SMC,General Cargo,True,0.0,False,Heavy damage,Technical,Final
+85,2017,,Capsizing,Capsizing,Java Sea,Sea,VSMC,Landing Craft,False,0.0,False,Total Loss,Weather,Final
+86,2017,,Fire,Fire/Explosion,Java Sea,Sea,VSMC,Ro-Ro Ferry,True,5.0,True,Total Loss,Technical,Final
+87,2017,,Fire,Fire/Explosion,Makassar Strait,Sea,SMC,Tanker,True,0.0,False,Medium damage,Technical,Final
+88,2017,,Grounding,Grounding,Lombok Strait,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Minor damage,-,In progress
+89,2017,,Capsizing,Capsizing,Malaka Strait,Sea,VSMC,Container,True,1.0,True,Total Loss,-,Final
+90,2017,,Fire,Fire/Explosion,Makassar Strait,Sea,SMC,Passenger,True,0.0,False,Heavy damage,-,In progress
+91,2017,,Grounding,Grounding,Seram Sea,Sea,SMC,General Cargo,True,0.0,False,Minor damage,Technical,Final
+92,2017,,Collision,Collision/Contact,Sunda Strait,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Minor damage,Human,Final
+93,2017,,Fire,Fire/Explosion,Java Sea,Sea,SMC,Container,True,0.0,False,Minor damage,Technical,Final
+94,2017,,Capsizing,Capsizing,Makassar Strait,Sea,VSMC,Passenger,True,10.0,True,Heavy damage,Technical,Final
+95,2017,,Fire,Fire/Explosion,Java Sea,Sea,SMC,General Cargo,True,0.0,False,Minor damage,Technical,Final
+96,2017,,Collision,Collision/Contact,Sunda Strait,Sea,SMC,Container,True,0.0,False,Minor damage,Human,Final
+97,2017,,Collision,Collision/Contact,Singapore Strait,Sea,VSMC,Tanker,True,5.0,True,Heavy damage,Human,Final
+98,2017,Case 12,Capsizing,Capsizing,Flores Sea,Sea,VSMC,Pelra,True,0.0,False,Total Loss,Technical,Final
+99,2017,,Grounding,Grounding,Java Sea,Sea,VSMC,General Cargo,True,0.0,False,Heavy damage,Human,Final
+100,2017,,Fire,Fire/Explosion,Java Sea,Sea,VSMC,Ro-Ro Ferry,True,0.0,False,Total Loss,Technical,Final
+101,2017,,Grounding,Grounding,Banda Sea,Sea,SMC,Passenger,True,0.0,False,Minor damage,Technical,Final
+102,2017,,Grounding,Grounding,Sunda Strait,Sea,SMC,Bulk Carrier,True,0.0,False,Minor damage,-,In progress
+103,2017,,Capsizing,Capsizing,Barito River,River,VSMC,General Cargo,True,0.0,False,Total Loss,Human,Final
+104,2017,,Collision,Collision/Contact,Mentaya River,River,SMC,Passenger,True,0.0,False,Minor damage,-,In progress
+105,2017,,Other,Other,Makassar Strait,Sea,VSMC,Ro-Ro Ferry,True,1.0,True,none,Human,Final
+106,2017,,Other,Other,Musi River,River,VSMC,Tug Boat,False,1.0,True,none,Human,Final
+107,2018,,Capsizing,Capsizing,Makassar Strait,Sea,VSMC,Passenger,True,8.0,True,Medium damage,Technical,Final
+108,2018,Case 13,Capsizing,Capsizing,Musi River,River,VSMC,Pelra,True,13.0,True,Total Loss,Technical,Final
+109,2018,,Other,Other,Makassar Strait,Sea,VSMC,Bulk Carrier,True,1.0,True,none,-,In progress
+110,2018,,Capsizing,Capsizing,Java Sea,Sea,VSMC,General Cargo,True,2.0,True,Total Loss,-,In progress
+111,2018,,Capsizing,Capsizing,Java Sea,Sea,VSMC,General Cargo,True,3.0,True,Total Loss,Technical,Final
+112,2018,,Grounding,Grounding,Musi River,River,VSMC,Ro-Ro Ferry,True,1.0,True,Heavy damage,Human,Final
+113,2018,,Other,Other,Barito River,River,VSMC,General Cargo,True,5.0,True,none,Human,Final
+114,2018,,Fire,Fire/Explosion,Gelasa Strait,Sea,VSMC,General Cargo,True,0.0,False,Total Loss,Technical,Final
+115,2018,,Fire,Fire/Explosion,Lombok Strait,Sea,VSMC,Patrol Vessel,False,0.0,False,Total Loss,Technical,Final
+116,2018,,Other,Other,Semlayang Strait,Sea,VSMC,Bulk Carrier,True,5.0,True,Minor damage,Human,Final
+117,2018,,Capsizing,Capsizing,Seram Sea,Sea,VSMC,Bulk Carrier,True,2.0,True,Total Loss,Technical,Final
+118,2018,,Fire,Fire/Explosion,Java Sea,Sea,SMC,Container,True,0.0,False,Medium damage,-,In progress
+119,2018,,Fire,Fire/Explosion,Bali Strait,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Medium damage,Technical,Final
+120,2018,,Grounding,Grounding,Karimata Strait,Sea,SMC,Passenger,True,0.0,False,Medium damage,Human,Final
+121,2018,,Grounding,Grounding,Malinau River,River,VSMC,Passenger,True,5.0,True,Heavy damage,Human,Final
+122,2018,,Fire,Fire/Explosion,Kapuas River,River,SMC,General Cargo,True,0.0,False,Medium damage,Human,Final
+123,2018,,Other,Other,Java Sea,Sea,SMC,General Cargo,True,0.0,False,Minor damage,Human,Final
+124,2018,,Fire,Fire/Explosion,Barito River,River,SMC,Tanker,True,0.0,False,Heavy damage,Human,Final
+125,2018,,Fire,Fire/Explosion,Karimata Strait,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Minor damage,Technical,Final
+126,2018,,Other,Other,Siak River,River,VSMC,Tanker,True,2.0,True,none,Technical,Final
+127,2018,Case 14,Capsizing,Capsizing,Makassar Strait,Sea,VSMC,Pelra,True,18.0,True,Total Loss,Human,Final
+128,2018,Case 15,Capsizing,Capsizing,Toba Lake,Lake/reservoir,VSMC,Pelra,True,167.0,True,Total Loss,Technical,Final
+129,2018,,Grounding,Grounding,Flores Sea,Sea,VSMC,Ro-Ro Ferry,True,35.0,True,Heavy damage,Technical,Final
+130,2018,,Grounding,Grounding,Sunda Strait,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Minor damage,Human,Final
+131,2018,,Other,Other,Java Sea,Sea,SMC,Bulk Carrier,True,0.0,False,Minor damage,-,In progress
+132,2018,Case 16,Capsizing,Capsizing,Indian Ocean,Sea,VSMC,Pelra,True,2.0,True,Heavy damage,Human,Final
+133,2018,,Collision,Collision/Contact,Seram Sea,Sea,VSMC,General Cargo,True,1.0,True,Total Loss,Human,Final
+134,2018,,Fire,Fire/Explosion,Java Sea,Sea,VSMC,Ro-Ro Ferry,True,1.0,True,Heavy damage,-,In progress
+135,2018,,Fire,Fire/Explosion,Flores Sea,Sea,VSMC,Passenger,True,0.0,False,Total Loss,Technical,Final
+136,2018,,Grounding,Grounding,Flores Sea,Sea,VSMC,Passenger,True,0.0,False,Total Loss,Technical,Final
+137,2018,,Capsizing,Capsizing,Maluku Sea,Sea,VSMC,Ro-Ro Ferry,True,3.0,True,Total Loss,-,In progress
+138,2018,Case 17,Fire,Fire/Explosion,Banggai waters (Central Sulawesi),Sea,VSMC,Pelra,True,19.0,True,Total Loss,Technical,Final
+139,2018,,Collision,Collision/Contact,Mentaya River,River,SMC,Ro-Ro Ferry,True,0.0,False,Medium damage,-,In progress
+140,2018,,Grounding,Grounding,Singapore Strait,Sea,SMC,Passenger,True,0.0,False,Medium damage,Human,Final
+141,2018,,Fire,Fire/Explosion,Makassar Strait,Sea,SMC,Bulk Carrier,True,0.0,False,Medium damage,Technical,Final
+142,2018,,Capsizing,Capsizing,Flores Sea,Sea,VSMC,General Cargo,True,7.0,True,Total Loss,Human,Final
+143,2018,,Fire,Fire/Explosion,Java Sea,Sea,VSMC,Ro-Ro Ferry,True,3.0,True,Heavy damage,-,In progress
+144,2018,Case 18,Collision,Collision/Contact,Singapore Strait,Sea,VSMC,Pelra,True,0.0,False,Total Loss,Human,Final
+145,2018,,Other,Other,Sunda Strait,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Minor damage,Technical,Final
+146,2018,,Capsizing,Capsizing,Java Sea,Sea,VSMC,Container,True,0.0,False,Total Loss,-,In progress
+147,2018,,Other,Other,Flores Sea,Sea,SMC,Tanker,True,0.0,False,Minor damage,Technical,Final
+148,2019,,Collision,Collision/Contact,Natuna Sea,Sea,VSMC,Tanker,True,0.0,False,TOTAL LOSS,Human,Final
+149,2019,,Other,Other,Makassar Strait,Sea,SMC,Tanker,True,0.0,False,Minor damage,Technical,Final
+150,2019,,Other,Other,Bone Bay,Sea,VSMC,Tanker,True,1.0,True,none,-,In progress
+151,2019,,Collision,Collision/Contact,Karimata Strait,Sea,SMC,Tanker,True,0.0,False,Minor damage,Human,Final
+152,2019,,Fire,Fire/Explosion,Sunda Strait,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Medium damage,Technical,Final
+153,2019,,Other,Other,Kapuas River,River,VSMC,General Cargo,True,2.0,True,Minor damage,Technical,Final
+154,2019,,Collision,Collision/Contact,Sunda Strait,Sea,VSMC,Ro-Ro Ferry,True,1.0,True,Minor damage,-,Final
+155,2019,,Capsizing,Capsizing,Kapuas River,River,SMC,Ro-Ro Ferry,True,0.0,False,Heavy damage,-,In progress
+156,2019,,Collision,Collision/Contact,Makassar Strait,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Minor damage,Human,Final
+157,2019,Case 19,Fire,Fire/Explosion,River Maro,River,VSMC,Pelra,True,4.0,True,Total Loss,-,In progress
+158,2019,,Capsizing,Capsizing,Maluku Sea,Sea,VSMC,General Cargo,True,17.0,True,Total Loss,-,In progress
+159,2019,,Fire,Fire/Explosion,Sawu Sea,Sea,SMC,Container,True,0.0,False,Minor damage,Technical,Final
+160,2019,Case 20,Capsizing,Capsizing,Java Sea,Sea,VSMC,Pelra,True,22.0,True,Total Loss,-,Final
+161,2019,,Collision,Collision/Contact,Java Sea,Sea,SMC,Container,True,0.0,False,Medium damage,Human,Final
+162,2019,Case 21,Collision,Collision/Contact,Gelasa Strait,Sea,VSMC,Pelra,True,4.0,True,Total Loss,Human,In progress
+163,2019,Case 22,Fire,Fire/Explosion,Maluku Sea,Sea,VSMC,Pelra,True,13.0,True,Total Loss,-,In progress
+164,2019,,Fire,Fire/Explosion,Java Sea,Sea,VSMC,Ro-Ro Ferry,True,4.0,True,Heavy damage,Technical,Final
+165,2019,,Capsizing,Capsizing,Maluku Sea,Sea,VSMC,Bulk Carrier,True,25.0,True,Total Loss,Technical,Final
+166,2019,,Collision,Collision/Contact,Sunda Strait,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Minor damage,Human,Final
+167,2019,,Collision,Collision/Contact,Sunda Strait,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Minor damage,-,Final
+168,2019,,Capsizing,Capsizing,Makassar Strait,Sea,VSMC,Container,True,0.0,False,Total Loss,-,Final
+169,2019,,Fire,Fire/Explosion,Java Sea,Sea,SMC,Container,True,0.0,False,Medium damage,Technical,Final
+170,2019,,Collision,Collision/Contact,Flores Sea,Sea,VSMC,General Cargo,True,0.0,False,Total Loss,Human,Final
+171,2020,,Capsizing,Capsizing,Gelasa Strait,Sea,VSMC,General Cargo,True,0.0,False,Total Loss,-,Final
+172,2020,,Other,Other,Seram Sea,Sea,SMC,Tanker,True,0.0,False,Medium damage,-,In progress
+173,2020,,Grounding,Grounding,Sunda Strait,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Minor damage,Human,Final
+174,2020,,Grounding,Grounding,Singapore Strait,Sea,SMC,Container,True,0.0,False,Heavy damage,-,In progress
+175,2020,,Grounding,Grounding,Singapore Strait,Sea,SMC,Bulk Carrier,True,0.0,False,Minor damage,-,In progress
+176,2020,,Capsizing,Capsizing,Lombok Strait,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Heavy damage,-,In progress
+177,2020,,Fire,Fire/Explosion,Malaka Strait,Sea,VSMC,Tanker,True,7.0,True,Medium damage,Human,Final
+178,2020,,Fire,Fire/Explosion,Java Sea,Sea,VSMC,Ro-Ro Ferry,True,0.0,False,Total Loss,Technical,Final
+179,2020,,Capsizing,Capsizing,Java Sea,Sea,VSMC,Container,True,0.0,False,Total Loss,-,In progress
+180,2020,,Grounding,Grounding,Singapore Strait,Sea,SMC,Container,True,0.0,False,Minor damage,-,In progress
+181,2020,Case 23,Capsizing after Collision,Collision/Contact,Indian Ocean,Sea,VSMC,Pelra,True,4.0,True,Total Loss,Human,Final
+182,2020,,Collision,Collision/Contact,Barito River,River,SMC,Tanker,True,0.0,False,Medium damage,-,In progress
+183,2021,,Collision,Collision/Contact,Java Sea,Sea,VSMC,Container,True,5.0,True,Total Loss,-,In progress
+184,2021,,Collision,Collision/Contact,Java Sea,Sea,SMC,General Cargo,True,0.0,False,Heavy damage,-,In progress
+185,2021,,Grounding,Grounding,Sea Halmahera,Sea,SMC,Passenger,True,0.0,False,Medium damage,-,In progress
+186,2021,,Fire,Fire/Explosion,Mahakam River,River,VSMC,Tanker,True,3.0,True,Total Loss,Human,Final
+187,2021,,Capsizing,Capsizing,River Sambas,River,SMC,Ro-Ro Ferry,True,0.0,False,Heavy damage,-,In progress
+188,2021,Case 24,Fire,Fire/Explosion,Port of Sorong,Port,SMC,Pelra,True,0.0,False,Heavy damage,-,In progress
+189,2021,Case 25,Collision,Collision/Contact,Java Sea,Sea,VSMC,Pelra,True,17.0,True,Total Loss,Human,Final
+190,2021,,Other,Other,Sunda Strait,Sea,VSMC,Bulk Carrier,True,1.0,True,none,Human,Final
+191,2021,,Capsizing,Capsizing,Sawu Sea,Sea,VSMC,Ro-Ro Ferry,True,0.0,False,Total Loss,-,In progress
+192,2021,Case 26,Capsizing,Capsizing,Reservoir,Lake/reservoir,VSMC,Pelra,True,9.0,True,Minor damage,Human,Final
+193,2021,Case 27,Capsizing,Capsizing,Malaka Strait,Sea,VSMC,Pelra,True,8.0,True,Total Loss,-,Final
+194,2021,Case 28,Fire,Fire/Explosion,Maluku Sea,Sea,VSMC,Pelra,True,1.0,True,Heavy damage,Technical,Final
+195,2021,,Other,Other,Toba Lake,Lake/reservoir,VSMC,Ro-Ro Ferry,True,1.0,True,Minor damage,-,In progress
+196,2021,,Grounding,Grounding,Aru Sea,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Minor damage,-,In progress
+197,2021,,Capsizing,Capsizing,Bali Strait,Sea,VSMC,Ro-Ro Ferry,True,24.0,True,Total Loss,Technical,Final
+198,2021,,Fire,Fire/Explosion,Malaka Strait,Sea,SMC,Tanker,True,0.0,False,Minor damage,-,In progress
+199,2021,,Collision,Collision/Contact,Barito River,River,SMC,Container,True,0.0,False,Medium damage,-,In progress
+200,2021,,Fire,Fire/Explosion,Banda Sea,Sea,VSMC,Fishing Vessel,False,27.0,True,Total Loss,-,In progress
+201,2021,,Fire,Fire/Explosion,Indian Ocean,Sea,SMC,Bulk Carrier,True,0.0,False,Heavy damage,-,In progress
+202,2022,,Grounding,Grounding,Ocean Pasifik,Sea,SMC,Passenger,True,0.0,False,Minor damage,-,In progress
+203,2022,,Capsizing,Capsizing,Flores Sea,Sea,VSMC,General Cargo,True,0.0,False,Total Loss,-,In progress
+204,2022,,Collision,Collision/Contact,Bali Strait,Sea,SMC,Ro-Ro Ferry,True,0.0,False,Minor damage,-,In progress
+205,2022,Case 29,Capsizing,Capsizing,Makassar Strait,Sea,VSMC,Pelra,True,19.0,True,Total Loss,Human,In progress
+206,2022,,Fire,Fire/Explosion,Singapore Strait,Sea,VSMC,Passenger,True,2.0,True,Total Loss,-,In progress
+207,2022,Case 30,Capsizing,Capsizing,Maluku Sea,Sea,VSMC,Pelra,True,13.0,True,Total Loss,Human,In progress
+208,2022,,Capsizing,Capsizing,Makassar Strait,Sea,VSMC,General Cargo,True,11.0,True,Total Loss,-,In progress
+209,2022,,Fire,Fire/Explosion,Java Sea,Sea,VSMC,Passenger,True,1.0,True,Minor damage,-,In progress
+210,2022,,Fire,Fire/Explosion,Java Sea,Sea,SMC,Container,True,0.0,False,Medium damage,-,In progress
+211,2022,,Capsizing,Capsizing,River,River,SMC,Ro-Ro Ferry,True,0.0,False,Heavy damage,-,In progress
+212,2022,,Fire,Fire/Explosion,Sawu Sea,Sea,VSMC,Passenger,True,40.0,True,Total Loss,-,In progress
+213,2022,,Grounding,Grounding,Singapore Strait,Sea,SMC,Tanker,True,0.0,False,Minor damage,-,In progress
+214,2022,,Fire,Fire/Explosion,Lombok Strait,Sea,VSMC,Ro-Ro Ferry,True,0.0,False,Total Loss,-,In progress
+215,2022,,Fire,Fire/Explosion,Java Sea,Sea,SMC,General Cargo,True,0.0,False,Medium damage,-,In progress

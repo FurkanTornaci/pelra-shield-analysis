@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite the paper below."
+title: "Human factors in Indonesian traditional wooden (Pelra) ship accidents: SHIELD analysis data and code"
+type: dataset
+license: [MIT, CC-BY-4.0]
+repository-code: "https://github.com/FurkanTornaci/pelra-shield-analysis"
+authors:
+  - {given-names: Eka, family-names: Ardhi, affiliation: "University of Strathclyde; Institut Teknologi Sepuluh Nopember"}
+  - {given-names: Osman, family-names: Turan, affiliation: "University of Strathclyde"}
+  - {given-names: Rafet, family-names: Kurt, affiliation: "University of Strathclyde"}
+  - {given-names: Mohammad, family-names: Arif, affiliation: "University of Strathclyde"}
+  - {given-names: Furkan, family-names: Tornaci, affiliation: "University of Strathclyde"}
+preferred-citation:
+  type: article
+  title: "Human Factors in Traditional Wooden Ship Accidents: An Empirical SHIELD Taxonomy Analysis of Indonesian Pelra Vessels"
+  journal: "Applied Sciences"
+  status: submitted
+  authors:
+    - {given-names: Eka, family-names: Ardhi}
+    - {given-names: Osman, family-names: Turan}
+    - {given-names: Rafet, family-names: Kurt}
+    - {given-names: Mohammad, family-names: Arif}
+    - {given-names: Furkan, family-names: Tornaci}

@@ -1,0 +1,115 @@
+coding_case,table8_case,layer,category,code,label,impact_rating,evidence
+1,1,Acts,Communicating,AC2,No transmission of information,1,ship continue sailing without knowing weather become severe
+1,1,Acts,Perception,AP1,No/wrong/late visual detection,1,"Ship tow speed boat only 7-8 m at the stern of the ship, and because of severe weather speed boat hit the stern, and water leakage from its hole.Only after the speed boat hit the stern of the ship and made a hole in it, crew release speed boat."
+1,1,Preconditions,Equipment And Workplace,PEW5,Communication equipment inadequate,3,ship using non standar radio communication
+1,1,Operational Leadership,Task Leadership,LT5,Directed deviation,4,ship tow speed boat
+1,1,Organisation,Culture,OC1,Safety culture,4,Ship tow speed boat
+1,1,Organisation,Resources,OR3,Equipment/parts/materials availability,2,"bilge, seawater pump not working properly"
+2,2,Acts,Planning And Decision Making,AD1,Incorrect decision or plan,3,Crew take the risk by operate ship on unsafe condition (overload)
+2,2,Preconditions,Equipment And Workplace,PEW3,Workspace or working position incompatible with operation,1,"The height of deck passenger only 1.4 m not comfortable for passenger, make passenger want to sit on top deck"
+2,2,Operational Leadership,Task Leadership,LT3,No enforcement of existing rules,3,Crew unsuccessfully asked the passengers to stay where they were.
+2,2,Organisation,Safety Management,OS2,Safety risk management (proactive),4,"Even when ship overload, crew still operate the ship (ship capacity only for 30 pax, when accident happen there are 163 passenger)"
+3,3,Acts,Planning And Decision Making,AD1,Incorrect decision or plan,2,Ship maneuver without clear information route or pilot onboard.
+3,3,Acts,Perception,AP1,No/wrong/late visual detection,4,"Time for ship capsize is quick, crew did not use life jacket"
+3,3,Preconditions,Equipment And Workplace,PEW3,Workspace or working position incompatible with operation,3,Ship did not had watertight bulkhead
+3,3,Operational Leadership,Task Leadership,LT3,No enforcement of existing rules,3,Captain move the ship but no confirmation or approval and guidance from port authorities
+4,4,Acts,Planning And Decision Making,AD1,Incorrect decision or plan,2,"Actor 1 after facing rought weather try to turn back the ship, but still ship capsized."
+4,4,Operational Leadership,Operations Planning,LO1,Inadequate risk assessment,2,Actor 1 did not had information about weather on their route
+4,4,Organisation,Culture,OC1,Safety culture,4,"Ship in unsafe condition but still operate. (Crew and ship without certificate, navigation, communication and safety equipment)"
+4,4,Organisation,Resources,OR3,Equipment/parts/materials availability,3,"No communication, navigation and safety equipment on the ship"
+5,5,Acts,Planning And Decision Making,AD1,Incorrect decision or plan,4,Actor 2 saw Jukung Irpansya in portside MT Gloria when less than 50 m
+5,5,Acts,Planning And Decision Making,AD3,No decision or plan,3,"Actor 1, 2, and 3 did not turn on sound signal when approach crossing."
+5,5,Acts,Perception,AP1,No/wrong/late visual detection,2,Actor 1 saw Jukung Irpansya in portside MT Gloria when less than 50 m
+5,5,Acts,Perception,AP1,No/wrong/late visual detection,2,Actor 4 speeding Jukung Arpansya to crossing infront of MT Gloria.
+5,5,Preconditions,Physiological Condition,PPC2,Fatigue,4,Actor 4 sailing more than 13 hour without rest
+6,6,Acts,Perception,AP1,No/wrong/late visual detection,3,Actor 1 perseveres in sailing the ship despite the increasingly inclement weather
+6,6,Preconditions,"Competence, Skills And Capability",PCS2,Lack of proficiency,3,Actor 1 did not receive weather information
+6,6,Preconditions,Equipment And Workplace,PEW5,Communication equipment inadequate,2,Actor 1 navigating boat based on experience (no equipment available)
+6,6,Organisation,Culture,OC1,Safety culture,4,"Ship did not had navigation, communication and sfaety equipment. Passenger did not use life jacket"
+7,7,Acts,Communicating,AC2,No transmission of information,2,No safety induction before ship sail
+7,7,Acts,Planning And Decision Making,AD1,Incorrect decision or plan,3,When fire in engine no 2 started Actor 2 did not use firefighting equipment but used a mop that was flammable.
+7,7,Acts,Intentional Deviation,AI3,Workaround in exceptional conditions,3,Actor 1 asks passenger to abandon ship without using the lifejacket
+7,7,Preconditions,Equipment And Workplace,PEW3,Workspace or working position incompatible with operation,4,"The ship did not have an emergency exit, only one access on behind."
+7,7,Organisation,Resources,OR3,Equipment/parts/materials availability,2,The main engine operates in unsafe condition and needs maintenance to perform at its best condition.
+8,8,Acts,Communicating,AC1,Incorrect/unclear transmission of information,3,Actor 3 did not see or received signal because he alone on wheelhouse and obscured his view of the rear of the ship
+8,8,Acts,Intentional Deviation,AI1,Workaround in normal conditions,4,Actor 2 leaving from wheelhouse to call the crew who will be on duty next.
+8,8,Acts,Perception,AP1,No/wrong/late visual detection,3,"After Actor 1 see Jaya 2 on 0.2 mill he give sound signal, light signal and change the bow direction but still collision happen."
+8,8,Organisation,Resources,OR3,Equipment/parts/materials availability,2,Request for maintenance for main radar has been submitted but not done by company
+8,8,Organisation,Resources,OR3,Equipment/parts/materials availability,2,Main radar on MT Victory not working properly
+9,10,Acts,Communicating,AC1,Incorrect/unclear transmission of information,2,Actor 1 did not receive an update weather from their navigation and communication equipment.
+9,10,Acts,Planning And Decision Making,AD2,Late decision or plan,3,Actor 2 failed to pump sea water because the amount of sea water entering was greater than the pump capacity
+9,10,Operational Leadership,Operations Planning,LO1,Inadequate risk assessment,4,Actor 1 did not receive an update weather from their navigation and communication equipment. But continue to sail
+9,10,Organisation,Resources,OR3,Equipment/parts/materials availability,4,No watertight bulkhead on ship
+10,11,Acts,Planning And Decision Making,AD1,Incorrect decision or plan,3,"Before ship sail, Actor 2 repair main engine exhaust using asbestos cloth. Smoke still leaking, then he use mechanical fan to blow smoke out off engine room."
+10,11,Preconditions,Equipment And Workplace,PEW3,Workspace or working position incompatible with operation,4,20 from 24 victims die in accomodation room because can not evacuate from the ship.
+10,11,Operational Leadership,Operations Planning,LO2,Inadequate crew or team makeup or composition,2,"Crew not competence, Crew did not certificate"
+10,11,Organisation,Culture,OC1,Safety culture,2,No safety induction for emergency situation before ship sail
+10,11,Organisation,Resources,OR3,Equipment/parts/materials availability,3,Ship did not had safety and fire fighting equipment
+11,12,Acts,Planning And Decision Making,AD1,Incorrect decision or plan,2,"After 1 hour sail Actor 2 find out error on GPS navigation, but he still continue to sail."
+11,12,Acts,Intentional Deviation,AI1,Workaround in normal conditions,3,Actor 1 did not sail when accident happen
+11,12,Preconditions,Equipment And Workplace,PEW5,Communication equipment inadequate,3,No communication and safety equipment
+11,12,Operational Leadership,Personnel Leadership,LP2,Inappropriate behaviour affects learning,3,Actor 1 give authoritation for skipper / helmsman toact as captain.
+11,12,Organisation,Resources,OR3,Equipment/parts/materials availability,4,"GPS navigation error, no cummincation and safety equipment when accident happen"
+12,13,Acts,Planning And Decision Making,AD1,Incorrect decision or plan,4,Actor 1 used high speed after delay because of repairing main shaft without consider the wave and ship hull construction.
+12,13,Preconditions,"Competence, Skills And Capability",PCS1,Inadequate experience,3,Actor 1 did not had certificate of competence
+12,13,Operational Leadership,Operations Planning,LO1,Inadequate risk assessment,3,"After replace main shaft, actor 1 did not used minimum speed to continue sail."
+12,13,Operational Leadership,Task Leadership,LT1,Inadequate leadership or supervision,2,No safety induction before ship sail
+12,13,Organisation,Resources,OR3,Equipment/parts/materials availability,2,"Ship did not had safety, and communication equipment"
+12,13,Organisation,Resources,OR5,Design of equipment or procedures,3,Passenger became victim because inadequate layout and emergency exit.
+13,14,Acts,Perception,AP1,No/wrong/late visual detection,1,In a minute ship capsize.
+13,14,Preconditions,Awareness,PAW4,Inattention,2,Operator not prepare life jacket for passengers.
+13,14,Operational Leadership,Operations Planning,LO1,Inadequate risk assessment,3,Crew not ask passenger that sit on top of deck to sit on main deck.
+13,14,Organisation,Culture,OC1,Safety culture,4,"Some passenger sit on top of deck, passenger did not use life jacket or other safety equipment."
+14,15,Acts,Perception,AP1,No/wrong/late visual detection,3,Actor 1 did not received update weather condition
+14,15,Preconditions,Equipment And Workplace,PEW2,Technology creates an unsafe situation,2,Ship has been modification without infrom and approval from local authorities
+14,15,Operational Leadership,Task Leadership,LT3,No enforcement of existing rules,4,"Ship capacity only for 45 passenger, when accident happen there are 186 passenger and crew plus 70 motorcycle on ship."
+14,15,Organisation,Economy And Business,OE3,Economic pressure,4,Overcapacity but ship still sail.
+14,15,Organisation,Resources,OR3,Equipment/parts/materials availability,3,no navigation and communication equipment
+15,16,Acts,Planning And Decision Making,AD1,Incorrect decision or plan,4,Actor 1 change destination after received call from event organizer that did not expert about route and weather condition.
+15,16,Preconditions,Physical Environment,PPE6,Operation more difficult due to weather and environment,2,Severe weather on place of accident
+15,16,Organisation,Economy And Business,OE3,Economic pressure,3,Overcapacity. (ship capacity only for 12 passenger and crew. Total crew and passenger when accident happen are 27.
+15,16,Organisation,Resources,OR3,Equipment/parts/materials availability,3,No safety equipment
+16,17,Acts,Intentional Deviation,AI1,Workaround in normal conditions,2,Chief engineer did not sail when accident happen
+16,17,Preconditions,"Competence, Skills And Capability",PCS3,Inadequate training or currency,2,Lack safety drill on board
+16,17,Operational Leadership,Personnel Leadership,LP1,No personnel measures against regular risky behaviour,3,NO safety induction for passenger
+16,17,Organisation,Resources,OR3,Equipment/parts/materials availability,3,"No fire fighting equipment on engine room, actor 4 try put out fire using dipper fill with sea water."
+16,17,Organisation,Resources,OR3,Equipment/parts/materials availability,4,Passenger become victim because did not use life jacket (no safety equipment)
+16,17,Organisation,Resources,OR5,Design of equipment or procedures,2,Cooling and Fuel system not safe for marine operation
+17,18,Acts,Communicating,AC2,No transmission of information,3,No communication between Makmur and other ship before accident
+17,18,Acts,Planning And Decision Making,AD1,Incorrect decision or plan,4,"Actor 1 turn off alamr AIS after 1 hour sail because of error alarm, He did not inform auhtorities."
+17,18,Acts,Intentional Deviation,AI3,Workaround in exceptional conditions,1,Alarm AIS error then Actor 1 turn it off. Local authorities did not detect Makmur position because of it.
+17,18,Acts,Perception,AP1,No/wrong/late visual detection,2,"Actor 1 turning the ship to portside when Breeze already near, but collision still happen."
+17,18,Organisation,Resources,OR3,Equipment/parts/materials availability,2,Other vessel did not know actual position of Makmur (No communication and navigation equipment)
+18,20,Preconditions,Equipment And Workplace,PEW5,Communication equipment inadequate,3,No communication equipment
+18,20,Operational Leadership,Operations Planning,LO2,Inadequate crew or team makeup or composition,2,Crew did not had competence certificate
+18,20,Operational Leadership,Operations Planning,LO6,Directed task with inadequate equipment,2,Cargo ship used to carry passenger
+18,20,Organisation,Culture,OC1,Safety culture,4,Ship sail in unsafe condition
+18,20,Organisation,Resources,OR3,Equipment/parts/materials availability,3,"No navigation, communication and safety equipment"
+19,23,Acts,Communicating,AC2,No transmission of information,3,No communication between Cape Kallia and Kerinci Indah 02 before accident
+19,23,Acts,Planning And Decision Making,AD1,Incorrect decision or plan,2,OOW presume unknown object would make away for their ship.
+19,23,Acts,Perception,AP1,No/wrong/late visual detection,4,Actor 2 and 3 as officer on watch see unknown object half hour before accident and did not inform master as per Master's night order
+19,23,Preconditions,Awareness,PAW4,Inattention,4,"Actor 4 or crew on Kerinci indah 02 unaware Cape Kallia approaching, according OOW Cape Kallia, they give aldis lamp signal but no respon from Kerinci indah 02"
+19,23,Preconditions,"Competence, Skills And Capability",PCS1,Inadequate experience,2,Actor 5 did not had certificate of compliance
+19,23,Preconditions,Equipment And Workplace,PEW5,Communication equipment inadequate,2,"Kerinci indah using SSB radio, but the used frequency was unknown by Cape Kallia"
+19,23,Organisation,Resources,OR3,Equipment/parts/materials availability,1,Kerinci indah 02 detail AIS not detect by Cape Kallia
+20,25,Acts,Planning And Decision Making,AD1,Incorrect decision or plan,3,Actor 2 not give sound signal
+20,25,Acts,Perception,AP1,No/wrong/late visual detection,2,Actor 4 take decision late right before accident happen.
+20,25,Preconditions,Awareness,PAW4,Inattention,2,"Actor 4 alone on wheel house when accident happen,"
+20,25,Operational Leadership,Task Leadership,LT2,No correction of unsafe practices,4,no communication between Habco and Barokah before accident
+20,25,Organisation,Culture,OC1,Safety culture,3,"OOW Habco presume Barokah will give way for their ship without communicate, confirmation or give signal to Barokah"
+21,26,Acts,Perception,AP1,No/wrong/late visual detection,2,Operator did not inform passenger about safety induction.
+21,26,Preconditions,"Competence, Skills And Capability",PCS1,Inadequate experience,2,Operator did not had competence about emergency situation
+21,26,Operational Leadership,Task Leadership,LT2,No correction of unsafe practices,4,Before sail boat already overload with passenger and had trim by bow.
+21,26,Organisation,Resources,OR3,Equipment/parts/materials availability,3,No safety equipment
+22,27,Acts,Planning And Decision Making,AD1,Incorrect decision or plan,3,Cargo ship not only use for cargo but also to carry passenger
+22,27,Acts,Perception,AP1,No/wrong/late visual detection,2,No update weather information because did not had navigation and communication equipment
+22,27,Preconditions,Equipment And Workplace,PEW1,Ergonomics and human machine interface issues,2,"GPS error, Actor did not position ship on route"
+22,27,Organisation,Resources,OR3,Equipment/parts/materials availability,4,"Lifejacket only 8, total crew and passenger 26"
+23,28,Acts,Planning And Decision Making,AD1,Incorrect decision or plan,2,"Chief engineer using dry powder to handle fire on ME, oilyman using water and then AE blackout."
+23,28,Preconditions,Equipment And Workplace,PEW3,Workspace or working position incompatible with operation,3,"Air circulation at Karya Indah not working properly, according actor 2 all crew engine only visit ER with interval 10 minute because ER did not had control room."
+23,28,Operational Leadership,Personnel Leadership,LP1,No personnel measures against regular risky behaviour,3,"Night before accident, crew inform Chief engineer about red glowing - overheating on manifold and turbocharger but he said it was normal."
+23,28,Operational Leadership,Task Leadership,LT2,No correction of unsafe practices,3,"After overhaul ME, heat insulation for manifold and turbocharger not install on place."
+23,28,Organisation,Culture,OC1,Safety culture,4,"Ship unsafe condition but still sail, no heat detector, alarm and safety device"
+23,28,Organisation,Resources,OR3,Equipment/parts/materials availability,2,no engine control room.
+23,28,Organisation,Resources,OR3,Equipment/parts/materials availability,2,Fuel system operate in unsafe condition
+23,28,Organisation,Resources,OR3,Equipment/parts/materials availability,4,No heat isolation on exhaust manifold

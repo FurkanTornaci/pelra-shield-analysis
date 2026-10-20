@@ -1,0 +1,11 @@
+package,name,codes,n_support
+ME,Mandatory Basic Safety Equipment Package,OR3;PEW3,15
+MC,Master Competency & Emergency Training,AD1;AP1;LO1,13
+VS,Vessel Stability & Safe Loading Rules,LO1;AD1,14
+PM,Passenger & Cargo Manifest System,LT3;OS2;OE3,11
+PS,Harbourmaster Pre-departure Inspection Checklist,OR3;LO1;LT1,12
+WI,Wooden Hull Condition Surveys,PEW3;OR3,9
+IG,Informative Marine Weather Warnings,PPE6;AP1,14
+DI,Distress Communication Radio Network,PEW5;AP1,12
+RS,Regional Safety Supervision Units,LO1;LO6,10
+CI,Community Safety Culture Campaigns,OC1;LO6,11

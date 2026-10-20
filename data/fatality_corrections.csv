@@ -1,0 +1,4 @@
+row_id,case,vessel,original,corrected,dead,missing,knkt_report,source
+6,Case 2,KM. Acita 03,30,40,31 (1 crew + 30 passengers),9 passengers,KNKT.07.10.06.03,"p. 13, Section I.7.1, Table I-5"
+11,Case 4,Perahu Koli-Koli,7,10,8 passengers,2 (1 crew + 1 passenger),KNKT.08.11.05.03,"p. 9, Section I.7, Table I-1"
+160,Case 20,Arin Jaya,21,22,21 passengers,1 passenger,KNKT.19.06.15.03,p. 5

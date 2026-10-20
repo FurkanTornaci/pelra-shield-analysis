@@ -1,0 +1,17 @@
+layer,category,abbrev,instances,cases,pct_cases,weight
+Acts,Planning and Decision Making,PD,16,15,65.21739130434783,47
+Acts,Perception,Pn,13,12,52.17391304347826,31
+Acts,Communication,Cn,6,6,26.08695652173913,14
+Acts,Intentional Deviation,ID,5,5,21.73913043478261,13
+Preconditions,Equipment and Workplace,EW,12,12,52.17391304347826,32
+Preconditions,"Competence, Skills and Capability",CS,5,5,21.73913043478261,12
+Preconditions,Awareness,As,3,3,13.043478260869565,8
+Preconditions,Physical Environment,PE,1,1,4.3478260869565215,2
+Preconditions,Physiological Condition,PC,1,1,4.3478260869565215,4
+Operational Leadership,Task Leadership,TL,8,8,34.78260869565217,27
+Operational Leadership,Operations Planning,OP,7,6,26.08695652173913,18
+Operational Leadership,Personnel Leadership,PL,3,3,13.043478260869565,9
+Organisation,Resources,Rs,23,17,73.91304347826087,63
+Organisation,Culture,Ce,8,8,34.78260869565217,29
+Organisation,Economy and Business,EB,2,2,8.695652173913043,7
+Organisation,Safety Management,SM,1,1,4.3478260869565215,4

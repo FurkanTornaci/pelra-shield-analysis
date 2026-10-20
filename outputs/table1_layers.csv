@@ -1,0 +1,5 @@
+layer,instances,pct_instances,cases,pct_cases,distinct_codes,weight,weight_rating_1,weight_rating_2,weight_rating_3,weight_rating_4,n_rating_1,n_rating_2,n_rating_3,n_rating_4
+Acts,40,35.08771929824562,22,95.65217391304348,8,105,4,28,45,28,4,14,15,7
+Preconditions,22,19.29824561403509,19,82.6086956521739,10,58,1,20,21,16,1,10,7,4
+Operational Leadership,18,15.789473684210526,15,65.21739130434783,9,54,0,10,24,20,0,5,8,5
+Organisation,34,29.82456140350877,21,91.30434782608695,5,103,1,20,30,52,1,10,10,13

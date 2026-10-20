@@ -1,0 +1,33 @@
+code,label,Capsizing,Collision/Contact,Fire/Explosion,Total
+OR3,Equipment/parts/materials availability,10,3,4,17
+AD1,Incorrect decision or plan,7,4,3,14
+AP1,No/wrong/late visual detection,7,5,0,12
+OC1,Safety culture,5,1,2,8
+PEW3,Workspace or working position incompatible with operation,2,0,3,5
+PEW5,Communication equipment inadequate,4,1,0,5
+LO1,Inadequate risk assessment,4,0,0,4
+AC2,No transmission of information,1,2,1,4
+LT2,No correction of unsafe practices,1,1,1,3
+LT3,No enforcement of existing rules,3,0,0,3
+AI1,Workaround in normal conditions,1,1,1,3
+PAW4,Inattention,1,2,0,3
+PCS1,Inadequate experience,2,1,0,3
+OE3,Economic pressure,2,0,0,2
+LP1,No personnel measures against regular risky behaviour,0,0,2,2
+AC1,Incorrect/unclear transmission of information,1,1,0,2
+OR5,Design of equipment or procedures,1,0,1,2
+AI3,Workaround in exceptional conditions,0,1,1,2
+LO2,Inadequate crew or team makeup or composition,1,0,1,2
+LT5,Directed deviation,1,0,0,1
+OS2,Safety risk management (proactive),1,0,0,1
+PPC2,Fatigue,0,1,0,1
+AD2,Late decision or plan,1,0,0,1
+AD3,No decision or plan,0,1,0,1
+LP2,Inappropriate behaviour affects learning,1,0,0,1
+PCS2,Lack of proficiency,1,0,0,1
+LO6,Directed task with inadequate equipment,1,0,0,1
+LT1,Inadequate leadership or supervision,1,0,0,1
+PCS3,Inadequate training or currency,0,0,1,1
+PEW1,Ergonomics and human machine interface issues,1,0,0,1
+PEW2,Technology creates an unsafe situation,1,0,0,1
+PPE6,Operation more difficult due to weather and environment,1,0,0,1
